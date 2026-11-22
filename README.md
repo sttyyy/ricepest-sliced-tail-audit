@@ -1,5 +1,8 @@
 # Slice boundaries are a secondary contributor to small-object misses in tail classes
 
+**Repository:** <https://github.com/sttyyy/ricepest-sliced-tail-audit>  
+**Frozen version:** tag [`v1.0.0`](https://github.com/sttyyy/ricepest-sliced-tail-audit/releases/tag/v1.0.0) (commit `94a7abb`, 2026-11-22). Later commits are documentation, bibliography-formatting and PDF-rebuild changes only; the code and `results/` are unchanged.
+
 Supporting code and frozen results for a **preregistered, group-disjoint per-object recovery-ceiling audit of sliced (SAHI-style) inference** on long-tailed small-object detection, with RicePest-30 as the long-tail experiment and a native-resolution replication on the Yellow Sticky Traps (YST) dataset.
 
 > *Slice boundaries are a secondary contributor to small-object misses in tail classes: a preregistered recovery-ceiling audit of sliced inference for rice pest detection*
@@ -104,6 +107,16 @@ Neither dataset is redistributed here (size and licence terms); `results/` conta
 | Yellow Sticky Traps | `user_data/Yellow-Sticky-Traps-Dataset/{images,annotations}` | CC0 1.0 | 284 images, 5184×3456, Pascal VOC XML |
 
 Initial weights go to `work/weights/`: Ultralytics `yolo11n.pt` and torchvision `fcos_resnet50_fpn_coco-99b0c9b7.pth` (sources and sha256 in `DATA_SOURCES.md`).
+
+**Fine-tuned checkpoints (this paper).** The three checkpoints that produced the reported numbers are attached to the [`v1.0.0` release](https://github.com/sttyyy/ricepest-sliced-tail-audit/releases/tag/v1.0.0):
+
+| Checkpoint | Size | SHA-256 | Download |
+|---|---|---|---|
+| `yolo11n_rice_s0_last.pt` | 5.2 MB | `bcde46c946b0ad8523e72b094aca5dbf310d741e5e96804ef2e8965e96ad53f3` | [asset](https://github.com/sttyyy/ricepest-sliced-tail-audit/releases/download/v1.0.0/yolo11n_rice_s0_last.pt) |
+| `yolo11n_yst_s0_last.pt` | 5.2 MB | `80be29e2a8fe84088642a202a276b8a058dc766bd5cb9461e06f32fe0f2e7320` | [asset](https://github.com/sttyyy/ricepest-sliced-tail-audit/releases/download/v1.0.0/yolo11n_yst_s0_last.pt) |
+| `fcos_rice_s0_last.pth` | 123.1 MB | `f41271c04f8e0e55579dacbc3709a44d4b19b2e88fa8c10fe39caa0390123bdf` | [asset](https://github.com/sttyyy/ricepest-sliced-tail-audit/releases/download/v1.0.0/fcos_rice_s0_last.pth) |
+
+These are the frozen weights behind `results/`; `results/runs/*_train.json` records their training metadata.
 
 ## 6. Running
 

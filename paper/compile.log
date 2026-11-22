@@ -1,0 +1,2075 @@
+
+===== D:\develop\Modex\Modex-MH-Agent\runtime\texlive\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -halt-on-error -no-shell-escape main.tex =====
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex.fmt)
+entering extended mode
+(main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(sn-jnl.cls
+Document Class: sn-jnl 2019/11/18 v0.1: An authoring template for Springer Jour
+nal articles
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/base\fleqn.clo)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.
+sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.st
+y)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty)
+)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.
+cfg))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/sttools\cuted.sty)
+
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.
+sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.
+sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.
+sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graph
+ics.cfg)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdfte
+x.def)))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\thr
+eeparttable.sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.
+sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkey
+s.sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvd
+efinekeys.sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfesc
+ape.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdfte
+xcmds.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwar
+err.sty)))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.st
+y)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.s
+ty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\g
+ettitlestring.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoption
+s.sty)))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\string
+enc.sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.de
+f)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+) (C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.st
+y
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigin
+tcalc.sty)))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.d
+ef
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rer
+unfilecheck.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\un
+iquecounter.sty)))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.st
+y)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty)
+ (C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/base\fix-cm.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1enc.def))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty)
+)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.st
+y
+For additional information on amsmath, use the `?' option.
+
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.st
+y
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.s
+ty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.
+sty))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\mathrsfs.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color
+.cfg)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor
+.ltx))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty)
+
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/ncctools\manyfoot.
+sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/ncctools\nccfoots.
+sty))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorit
+hm.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algor
+ithmicx.sty
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algps
+eudocode.sty
+Document Style - pseudocode environments for use with the `algorithmicx' style
+)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.
+sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.s
+ty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.
+cfg))
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backen
+d-pdftex.def)
+No file main.aux.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-p
+df.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epsto
+pdf-base.sty
+
+Package epstopdf Warning: Shell escape feature is not enabled.
+
+
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-
+sys.cfg))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd)
+
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <8.43146> not available
+(Font)              size <8> substituted on input line 109.
+
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <5.52061> not available
+(Font)              size <6> substituted on input line 109.
+
+(sections/01_introduction.tex
+
+Package natbib Warning: Citation `mo2025ricepest' on page 1 undefined on input 
+line 3.
+
+
+Package natbib Warning: Citation `li2026agrisurvey' on page 1 undefined on inpu
+t line 3.
+
+
+Package natbib Warning: Citation `akyon2022sahi' on page 1 undefined on input l
+ine 3.
+
+
+Package natbib Warning: Citation `unel2019tiling' on page 1 undefined on input 
+line 3.
+
+
+Package natbib Warning: Citation `fotouhi2024sticky' on page 1 undefined on inp
+ut line 3.
+
+
+Package natbib Warning: Citation `ye2024teasahi' on page 1 undefined on input l
+ine 3.
+
+
+Package natbib Warning: Citation `wei2026yolousw' on page 1 undefined on input 
+line 3.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [1{C:/User
+s/tianyishng/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+
+Package natbib Warning: Citation `hoiem2012diagnosing' on page 2 undefined on i
+nput line 7.
+
+
+Package natbib Warning: Citation `bolya2020tide' on page 2 undefined on input l
+ine 7.
+
+
+Package natbib Warning: Citation `na2026crossview' on page 2 undefined on input
+ line 7.
+
+
+Package natbib Warning: Citation `pan2021norcal' on page 2 undefined on input l
+ine 7.
+
+
+Package natbib Warning: Citation `alexandridis2025fracal' on page 2 undefined o
+n input line 7.
+
+
+Package natbib Warning: Citation `dave2021devil' on page 2 undefined on input l
+ine 7.
+
+
+LaTeX Warning: Reference `fig:roadmap' on page 2 undefined on input line 9.
+
+
+LaTeX Warning: Reference `fig:arch' on page 2 undefined on input line 9.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [2]
+
+LaTeX Warning: Reference `sec:res-trunc' on page 3 undefined on input line 18.
+
+
+LaTeX Warning: Reference `fig:truncation' on page 3 undefined on input line 18.
+
+
+
+Package natbib Warning: Citation `akyon2022sahi' on page 3 undefined on input l
+ine 18.
+
+
+Package natbib Warning: Citation `unel2019tiling' on page 3 undefined on input 
+line 18.
+
+
+LaTeX Warning: Reference `sec:res-partition' on page 3 undefined on input line 
+18.
+
+
+LaTeX Warning: Reference `tab:partition' on page 3 undefined on input line 18.
+
+
+LaTeX Warning: Reference `fig:partition' on page 3 undefined on input line 18.
+
+
+Package natbib Warning: Citation `hoiem2012diagnosing' on page 3 undefined on i
+nput line 18.
+
+
+Package natbib Warning: Citation `bolya2020tide' on page 3 undefined on input l
+ine 18.
+
+
+Package natbib Warning: Citation `na2026crossview' on page 3 undefined on input
+ line 18.
+
+
+LaTeX Warning: Reference `sec:res-contrast' on page 3 undefined on input line 1
+8.
+
+
+LaTeX Warning: Reference `fig:contrast' on page 3 undefined on input line 18.
+
+
+Package natbib Warning: Citation `pan2021norcal' on page 3 undefined on input l
+ine 18.
+
+
+LaTeX Warning: Reference `sec:res-methods' on page 3 undefined on input line 18
+.
+
+
+LaTeX Warning: Reference `tab:ccpr' on page 3 undefined on input line 18.
+
+
+LaTeX Warning: Reference `sec:res-detector' on page 3 undefined on input line 1
+8.
+
+
+LaTeX Warning: Reference `sec:res-yst' on page 3 undefined on input line 18.
+
+) (sections/02_methods.tex
+
+LaTeX Warning: Reference `tab:config' on page 3 undefined on input line 3.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4 
+     <../figures/fig_roadmap.pdf>]
+
+Package natbib Warning: Citation `mo2025ricepest' on page 4 undefined on input 
+line 7.
+
+
+LaTeX Warning: Reference `fig:size-frequency' on page 4 undefined on input line
+ 9.
+
+
+Package natbib Warning: Citation `deserno2021relabeled' on page 4 undefined on 
+input line 18.
+
+
+Package natbib Warning: Citation `nguyen2026ip102taildet' on page 4 undefined o
+n input line 22.
+
+
+LaTeX Warning: Reference `tab:leakage' on page 4 undefined on input line 22.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [4]
+(tables/TABLE_leakage.tex)
+
+LaTeX Warning: Reference `fig:leakage' on page 5 undefined on input line 26.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.27 
+      <../figures/fig_size_frequency.pdf>]
+
+Package natbib Warning: Citation `redmon2016yolo' on page 6 undefined on input 
+line 37.
+
+
+Package natbib Warning: Citation `tian2019fcos' on page 6 undefined on input li
+ne 37.
+
+
+LaTeX Warning: Reference `tab:config' on page 6 undefined on input line 37.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [6
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.38 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.38 
+      <../figures/fig_leakage.pdf>] (tables/TABLE_config.tex)
+
+Package natbib Warning: Citation `akyon2022sahi' on page 7 undefined on input l
+ine 41.
+
+
+LaTeX Warning: Reference `tab:config' on page 7 undefined on input line 41.
+
+
+LaTeX Warning: Reference `fig:arch' on page 7 undefined on input line 45.
+
+
+LaTeX Warning: Reference `sec:prereg' on page 7 undefined on input line 45.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [7
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.46 
+     ]
+Underfull \vbox (badness 10000) has occurred while \output is active [8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.57 
+      <../figures/fig_arch.pdf>]
+
+LaTeX Warning: Reference `tab:config' on page 9 undefined on input line 64.
+
+
+Package natbib Warning: Citation `efron1987bca' on page 9 undefined on input li
+ne 66.
+
+
+Package natbib Warning: Citation `schuirmann1987tost' on page 9 undefined on in
+put line 66.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [9])
+(sections/03_results.tex
+
+LaTeX Warning: Reference `tab:truncation' on page 10 undefined on input line 7.
+
+
+(tables/TABLE_truncation.tex
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <4.015> not available
+(Font)              size <5> substituted on input line 6.
+
+)
+
+LaTeX Warning: Reference `fig:truncation' on page 10 undefined on input line 11
+.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [10
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.12 
+     ]
+
+LaTeX Warning: Reference `tab:partition' on page 11 undefined on input line 22.
+
+
+(tables/TABLE_partition.tex)
+
+LaTeX Warning: Reference `fig:partition' on page 11 undefined on input line 26.
+
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [11
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.27 
+      <../figures/fig_truncation_control.pdf>]
+
+LaTeX Warning: Reference `fig:stage-survival' on page 12 undefined on input lin
+e 35.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [12
+pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.36 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.36 
+      <../figures/fig_partition.pdf>]
+
+LaTeX Warning: Reference `fig:contrast' on page 13 undefined on input line 46.
+
+
+LaTeX Warning: Reference `sec:app-sensitivity' on page 13 undefined on input li
+ne 57.
+
+
+LaTeX Warning: Reference `tab:sensitivity' on page 13 undefined on input line 5
+7.
+
+
+LaTeX Warning: Reference `fig:sensitivity' on page 13 undefined on input line 5
+7.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.58 
+      <../figures/fig_stage_survival.pdf>]
+
+LaTeX Warning: Reference `fig:detectors' on page 14 undefined on input line 61.
+
+
+
+LaTeX Warning: Reference `tab:partition-fcos' on page 14 undefined on input lin
+e 61.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [14
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.62 
+      <../figures/fig_contrast.pdf>]
+
+LaTeX Warning: Reference `tab:methods' on page 15 undefined on input line 72.
+
+
+Package natbib Warning: Citation `na2026crossview' on page 15 undefined on inpu
+t line 72.
+
+
+Package natbib Warning: Citation `pan2021norcal' on page 15 undefined on input 
+line 72.
+
+
+LaTeX Warning: Reference `fig:methods' on page 15 undefined on input line 72.
+
+(tables/TABLE_methods.tex
+Underfull \hbox (badness 1424) in paragraph at lines 12--12
+[]\OT1/cmr/m/n/6 Na-style rescor-ing, class-
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]\OT1/cmr/m/n/6 Na-style rescor-ing, per
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+[]\OT1/cmr/m/n/6 Multi-label evi-dence +
+
+Underfull \hbox (badness 2547) in paragraph at lines 17--17
+[]\OT1/cmr/m/n/6 CCPR (multi-label peak
+
+Underfull \vbox (badness 10000) has occurred while \output is active [15
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.21 \end{table}
+                 <../figures/fig_detectors.pdf>])
+
+LaTeX Warning: Reference `tab:ccpr' on page 16 undefined on input line 83.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [16
+pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.84 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.84 
+      <../figures/fig_methods.pdf>] (tables/TABLE_ccpr.tex)
+
+LaTeX Warning: Reference `tab:yst' on page 17 undefined on input line 89.
+
+
+LaTeX Warning: Reference `fig:yst' on page 17 undefined on input line 89.
+
+(tables/TABLE_yst.tex)) (sections/04_discussion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active [17
+pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4 
+    ]
+Underfull \vbox (badness 10000) has occurred while \output is active [18
+pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.6 
+    
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.6 
+     <../figures/fig_yst.pdf>]
+
+Package natbib Warning: Citation `na2026crossview' on page 19 undefined on inpu
+t line 7.
+
+
+Package natbib Warning: Citation `pan2021norcal' on page 19 undefined on input 
+line 7.
+
+
+Package natbib Warning: Citation `alexandridis2025fracal' on page 19 undefined 
+on input line 7.
+
+
+Package natbib Warning: Citation `dave2021devil' on page 19 undefined on input 
+line 7.
+
+
+Package natbib Warning: Citation `hoiem2012diagnosing' on page 19 undefined on 
+input line 7.
+
+
+Package natbib Warning: Citation `bolya2020tide' on page 19 undefined on input 
+line 7.
+
+
+Package natbib Warning: Citation `becker2026scahi' on page 19 undefined on inpu
+t line 7.
+
+
+Package natbib Warning: Citation `nguyen2026ip102taildet' on page 19 undefined 
+on input line 7.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [19])
+(sections/05_conclusion.tex) (sections/06_declarations.tex
+
+Package natbib Warning: Citation `deserno2021relabeled' on page 20 undefined on
+ input line 9.
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 9--10
+\OT1/cmr/bx/n/10.03749 Data avail-abil-ity. \OT1/cmr/m/n/10 The study uses two 
+pub-lic datasets. RicePest-30 is dis-
+
+Underfull \vbox (badness 10000) has occurred while \output is active [20])
+(sections/0A_appendix.tex
+
+LaTeX Warning: Reference `tab:sensitivity' on page 21 undefined on input line 3
+.
+
+
+LaTeX Warning: Reference `sec:res-robust' on page 21 undefined on input line 3.
+
+
+
+LaTeX Warning: Reference `fig:sensitivity' on page 21 undefined on input line 3
+.
+
+(tables/TABLE_sensitivity.tex
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 \caption
+            {Sensitivity of recall and of the recovery-ceiling partition to ...
+
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5 \begin{tabular*}{\textwidth}
+                                {@{\extracolsep{\fill}}p{3.6cm}rrrrrr}
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]\OT1/cmr/m/n/6 YOLO11n, $\OML/cmm/m/it/6 T$\OT1/cmr/m/n/6 =320/0.25,
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\OT1/cmr/m/n/6 GREEDYNMM-IOS, $\OML/cmm/m/it/6 ^^\$\OT1/cmr/m/n/6 =0.25,
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]\OT1/cmr/m/n/6 GREEDYNMM-IOS, class-
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+[]\OT1/cmr/m/n/6 FCOS-R50-FPN, pri-mary
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]\OT1/cmr/m/n/6 FCOS-R50-FPN, thresh-old
+)
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10     \caption
+                 {Sensitivity of the ledger. Top: recall of small objects pe...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 ...d tilings (number of misses in brackets).}
+                                                  
+
+LaTeX Warning: Reference `sec:res-detector' on page 21 undefined on input line 
+16.
+
+
+LaTeX Warning: Reference `tab:partition-fcos' on page 21 undefined on input lin
+e 16.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [21]
+(tables/TABLE_partition_fcos.tex
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 \caption
+            {Recovery-ceiling partition of missed objects (FCOS).}
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.21 \end{tabular}
+                  )
+
+LaTeX Warning: Reference `fig:partition-fcos' on page 22 undefined on input lin
+e 20.
+
+
+LaTeX Warning: Reference `fig:stage-survival-fcos' on page 22 undefined on inpu
+t line 20.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25     \caption
+                 {Recovery-ceiling partition of every audit object under the...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25 ...nd layout match Fig.~\ref{fig:partition}.}
+                                                  
+
+LaTeX Warning: Reference `fig:partition' on page 22 undefined on input line 25.
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32     \caption
+                 {Stage-survival profile of the per-object ledger on the aud...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32 ...arkers are the oracle full-view read-out.}
+                                                  
+
+LaTeX Warning: Reference `fig:stage-survival' on page 22 undefined on input lin
+e 32.
+
+
+LaTeX Warning: Reference `tab:methods-fcos' on page 22 undefined on input line 
+36.
+
+(tables/TABLE_methods_fcos.tex
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 \caption
+            {Same-dump post-processing methods on the audit set (FCOS; param...
+
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5 \begin{tabular*}{\textwidth}
+                                {@{\extracolsep{\fill}}p{3cm}rrrrrrrrr}
+Underfull \hbox (badness 1424) in paragraph at lines 12--12
+[]\OT1/cmr/m/n/6 Na-style rescor-ing, class-
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]\OT1/cmr/m/n/6 Na-style rescor-ing, per
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+[]\OT1/cmr/m/n/6 Multi-label evi-dence +
+
+Underfull \hbox (badness 2547) in paragraph at lines 17--17
+[]\OT1/cmr/m/n/6 CCPR (multi-label peak
+)
+
+LaTeX Warning: Reference `fig:training' on page 22 undefined on input line 42.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.47     \caption
+                 {Training losses of the two frozen RicePest-30 detectors (n...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.47 ...data were used for checkpoint selection).}
+                                                  
+Underfull \vbox (badness 10000) has occurred while \output is active [22 <../fi
+gures/fig_sensitivity.pdf>])
+No file main.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [23 <../fi
+gures/fig_partition_fcos.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active [24 <../fi
+gures/fig_stage_survival_fcos.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active [25 <../fi
+gures/fig_training.pdf>] (main.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.985pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)<C:/Users/tianyishng/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/tia
+nyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmbx8.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmbx9.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/tianyishng/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/tianyishng/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ti
+anyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmmi9.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/tianyishng/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/tianyishng/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/tian
+yishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C
+:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr7.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr8.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr9.pfb><C:/Users/tianyishng/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/tianyishng/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/tianyish
+ng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/U
+sers/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmsy9.pfb><C:/Users/tianyishng/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/tianyishng/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb><C:/Users/tianyish
+ng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/U
+sers/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+ti9.pfb>
+Output written on main.pdf (25 pages, 912866 bytes).
+Transcript written on main.log.
+
+[exit 0]
+
+===== D:\develop\Modex\Modex-MH-Agent\runtime\texlive\miktex\bin\x64\bibtex.exe main =====
+This is BibTeX, Version 0.99e (MiKTeX 25.12)
+The top-level auxiliary file: main.aux
+The style file: sn-mathphys-num.bst
+Database file #1: references.bib
+sn-mathphys-num.bst [2024/07/19 v1.1  bibliography style]
+
+[exit 0]
+
+===== D:\develop\Modex\Modex-MH-Agent\runtime\texlive\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -halt-on-error -no-shell-escape main.tex =====
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex.fmt)
+entering extended mode
+(main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(sn-jnl.cls
+Document Class: sn-jnl 2019/11/18 v0.1: An authoring template for Springer Jour
+nal articles
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/base\fleqn.clo)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.
+sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.st
+y)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty)
+)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.
+cfg))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/sttools\cuted.sty)
+
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.
+sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.
+sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.
+sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graph
+ics.cfg)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdfte
+x.def)))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\thr
+eeparttable.sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.
+sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkey
+s.sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvd
+efinekeys.sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfesc
+ape.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdfte
+xcmds.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwar
+err.sty)))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.st
+y)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.s
+ty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\g
+ettitlestring.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoption
+s.sty)))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\string
+enc.sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.de
+f)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+) (C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.st
+y
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigin
+tcalc.sty)))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.d
+ef
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rer
+unfilecheck.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\un
+iquecounter.sty)))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.st
+y)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty)
+ (C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/base\fix-cm.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1enc.def))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty)
+)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.st
+y
+For additional information on amsmath, use the `?' option.
+
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.st
+y
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.s
+ty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.
+sty))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\mathrsfs.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color
+.cfg)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor
+.ltx))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty)
+
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/ncctools\manyfoot.
+sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/ncctools\nccfoots.
+sty))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorit
+hm.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algor
+ithmicx.sty
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algps
+eudocode.sty
+Document Style - pseudocode environments for use with the `algorithmicx' style
+)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.
+sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.s
+ty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.
+cfg))
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backen
+d-pdftex.def) (main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-p
+df.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epsto
+pdf-base.sty
+
+Package epstopdf Warning: Shell escape feature is not enabled.
+
+
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-
+sys.cfg)) (main.out) (main.out)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd)
+
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <8.43146> not available
+(Font)              size <8> substituted on input line 109.
+
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <5.52061> not available
+(Font)              size <6> substituted on input line 109.
+
+(sections/01_introduction.tex
+
+Package natbib Warning: Citation `mo2025ricepest' on page 1 undefined on input 
+line 3.
+
+
+Package natbib Warning: Citation `li2026agrisurvey' on page 1 undefined on inpu
+t line 3.
+
+
+Package natbib Warning: Citation `akyon2022sahi' on page 1 undefined on input l
+ine 3.
+
+
+Package natbib Warning: Citation `unel2019tiling' on page 1 undefined on input 
+line 3.
+
+
+Package natbib Warning: Citation `fotouhi2024sticky' on page 1 undefined on inp
+ut line 3.
+
+
+Package natbib Warning: Citation `ye2024teasahi' on page 1 undefined on input l
+ine 3.
+
+
+Package natbib Warning: Citation `wei2026yolousw' on page 1 undefined on input 
+line 3.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [1{C:/User
+s/tianyishng/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+
+Package natbib Warning: Citation `hoiem2012diagnosing' on page 2 undefined on i
+nput line 7.
+
+
+Package natbib Warning: Citation `bolya2020tide' on page 2 undefined on input l
+ine 7.
+
+
+Package natbib Warning: Citation `na2026crossview' on page 2 undefined on input
+ line 7.
+
+
+Package natbib Warning: Citation `pan2021norcal' on page 2 undefined on input l
+ine 7.
+
+
+Package natbib Warning: Citation `alexandridis2025fracal' on page 2 undefined o
+n input line 7.
+
+
+Package natbib Warning: Citation `dave2021devil' on page 2 undefined on input l
+ine 7.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [2]
+
+Package natbib Warning: Citation `akyon2022sahi' on page 3 undefined on input l
+ine 18.
+
+
+Package natbib Warning: Citation `unel2019tiling' on page 3 undefined on input 
+line 18.
+
+
+Package natbib Warning: Citation `hoiem2012diagnosing' on page 3 undefined on i
+nput line 18.
+
+
+Package natbib Warning: Citation `bolya2020tide' on page 3 undefined on input l
+ine 18.
+
+
+Package natbib Warning: Citation `na2026crossview' on page 3 undefined on input
+ line 18.
+
+
+Package natbib Warning: Citation `pan2021norcal' on page 3 undefined on input l
+ine 18.
+
+) (sections/02_methods.tex
+Underfull \vbox (badness 10000) has occurred while \output is active [3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4 
+     <../figures/fig_roadmap.pdf>]
+
+Package natbib Warning: Citation `mo2025ricepest' on page 4 undefined on input 
+line 7.
+
+
+Package natbib Warning: Citation `deserno2021relabeled' on page 4 undefined on 
+input line 18.
+
+
+Package natbib Warning: Citation `nguyen2026ip102taildet' on page 4 undefined o
+n input line 22.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [4]
+(tables/TABLE_leakage.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active [5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.27 
+      <../figures/fig_size_frequency.pdf>]
+
+Package natbib Warning: Citation `redmon2016yolo' on page 6 undefined on input 
+line 37.
+
+
+Package natbib Warning: Citation `tian2019fcos' on page 6 undefined on input li
+ne 37.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [6
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.38 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.38 
+      <../figures/fig_leakage.pdf>] (tables/TABLE_config.tex)
+
+Package natbib Warning: Citation `akyon2022sahi' on page 7 undefined on input l
+ine 41.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [7
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.46 
+     ]
+Underfull \vbox (badness 10000) has occurred while \output is active [8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.57 
+      <../figures/fig_arch.pdf>]
+
+Package natbib Warning: Citation `efron1987bca' on page 9 undefined on input li
+ne 66.
+
+
+Package natbib Warning: Citation `schuirmann1987tost' on page 9 undefined on in
+put line 66.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [9])
+(sections/03_results.tex (tables/TABLE_truncation.tex
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <4.015> not available
+(Font)              size <5> substituted on input line 6.
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active [10
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.12 
+     ] (tables/TABLE_partition.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active [11
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.27 
+      <../figures/fig_truncation_control.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active [12
+pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.36 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.36 
+      <../figures/fig_partition.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active [13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.58 
+      <../figures/fig_stage_survival.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active [14
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.62 
+      <../figures/fig_contrast.pdf>]
+
+Package natbib Warning: Citation `na2026crossview' on page 15 undefined on inpu
+t line 72.
+
+
+Package natbib Warning: Citation `pan2021norcal' on page 15 undefined on input 
+line 72.
+
+(tables/TABLE_methods.tex
+Underfull \hbox (badness 1424) in paragraph at lines 12--12
+[]\OT1/cmr/m/n/6 Na-style rescor-ing, class-
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]\OT1/cmr/m/n/6 Na-style rescor-ing, per
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+[]\OT1/cmr/m/n/6 Multi-label evi-dence +
+
+Underfull \hbox (badness 2547) in paragraph at lines 17--17
+[]\OT1/cmr/m/n/6 CCPR (multi-label peak
+
+Underfull \vbox (badness 10000) has occurred while \output is active [15
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.21 \end{table}
+                 <../figures/fig_detectors.pdf>])
+Underfull \vbox (badness 10000) has occurred while \output is active [16
+pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.84 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.84 
+      <../figures/fig_methods.pdf>] (tables/TABLE_ccpr.tex)
+(tables/TABLE_yst.tex)) (sections/04_discussion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active [17
+pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4 
+    ]
+Underfull \vbox (badness 10000) has occurred while \output is active [18
+pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.6 
+    
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.6 
+     <../figures/fig_yst.pdf>]
+
+Package natbib Warning: Citation `na2026crossview' on page 19 undefined on inpu
+t line 7.
+
+
+Package natbib Warning: Citation `pan2021norcal' on page 19 undefined on input 
+line 7.
+
+
+Package natbib Warning: Citation `alexandridis2025fracal' on page 19 undefined 
+on input line 7.
+
+
+Package natbib Warning: Citation `dave2021devil' on page 19 undefined on input 
+line 7.
+
+
+Package natbib Warning: Citation `hoiem2012diagnosing' on page 19 undefined on 
+input line 7.
+
+
+Package natbib Warning: Citation `bolya2020tide' on page 19 undefined on input 
+line 7.
+
+
+Package natbib Warning: Citation `becker2026scahi' on page 19 undefined on inpu
+t line 7.
+
+
+Package natbib Warning: Citation `nguyen2026ip102taildet' on page 19 undefined 
+on input line 7.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [19])
+(sections/05_conclusion.tex) (sections/06_declarations.tex
+
+Package natbib Warning: Citation `deserno2021relabeled' on page 20 undefined on
+ input line 9.
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 9--10
+\OT1/cmr/bx/n/10.03749 Data avail-abil-ity. \OT1/cmr/m/n/10 The study uses two 
+pub-lic datasets. RicePest-30 is dis-
+
+Underfull \vbox (badness 10000) has occurred while \output is active [20])
+(sections/0A_appendix.tex (tables/TABLE_sensitivity.tex
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 \caption
+            {Sensitivity of recall and of the recovery-ceiling partition to ...
+
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5 \begin{tabular*}{\textwidth}
+                                {@{\extracolsep{\fill}}p{3.6cm}rrrrrr}
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]\OT1/cmr/m/n/6 YOLO11n, $\OML/cmm/m/it/6 T$\OT1/cmr/m/n/6 =320/0.25,
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\OT1/cmr/m/n/6 GREEDYNMM-IOS, $\OML/cmm/m/it/6 ^^\$\OT1/cmr/m/n/6 =0.25,
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]\OT1/cmr/m/n/6 GREEDYNMM-IOS, class-
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+[]\OT1/cmr/m/n/6 FCOS-R50-FPN, pri-mary
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]\OT1/cmr/m/n/6 FCOS-R50-FPN, thresh-old
+)
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10     \caption
+                 {Sensitivity of the ledger. Top: recall of small objects pe...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 ...d tilings (number of misses in brackets).}
+                                                  
+Underfull \vbox (badness 10000) has occurred while \output is active [21]
+(tables/TABLE_partition_fcos.tex
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 \caption
+            {Recovery-ceiling partition of missed objects (FCOS).}
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.21 \end{tabular}
+                  )
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25     \caption
+                 {Recovery-ceiling partition of every audit object under the...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25 ...nd layout match Fig.~\ref{fig:partition}.}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32     \caption
+                 {Stage-survival profile of the per-object ledger on the aud...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32 ...arkers are the oracle full-view read-out.}
+                                                  
+(tables/TABLE_methods_fcos.tex
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 \caption
+            {Same-dump post-processing methods on the audit set (FCOS; param...
+
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5 \begin{tabular*}{\textwidth}
+                                {@{\extracolsep{\fill}}p{3cm}rrrrrrrrr}
+Underfull \hbox (badness 1424) in paragraph at lines 12--12
+[]\OT1/cmr/m/n/6 Na-style rescor-ing, class-
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]\OT1/cmr/m/n/6 Na-style rescor-ing, per
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+[]\OT1/cmr/m/n/6 Multi-label evi-dence +
+
+Underfull \hbox (badness 2547) in paragraph at lines 17--17
+[]\OT1/cmr/m/n/6 CCPR (multi-label peak
+)
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.47     \caption
+                 {Training losses of the two frozen RicePest-30 detectors (n...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.47 ...data were used for checkpoint selection).}
+                                                  
+Underfull \vbox (badness 10000) has occurred while \output is active [22 <../fi
+gures/fig_sensitivity.pdf>]) (main.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active [23 <../fi
+gures/fig_partition_fcos.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active [24 <../fi
+gures/fig_stage_survival_fcos.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active [25 <../fi
+gures/fig_training.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active [26])
+
+Package natbib Warning: There were undefined citations.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [27]
+(main.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.985pt have occurred.
+
+ )
+(see the transcript file for additional information)<C:/Users/tianyishng/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/tia
+nyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmbx8.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmbx9.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/tianyishng/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/tianyishng/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ti
+anyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmmi9.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/tianyishng/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/tianyishng/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/tian
+yishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C
+:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr7.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr8.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr9.pfb><C:/Users/tianyishng/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/tianyishng/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/tianyish
+ng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/U
+sers/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmsy9.pfb><C:/Users/tianyishng/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/tianyishng/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb><C:/Users/tianyish
+ng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/U
+sers/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+ti9.pfb>
+Output written on main.pdf (27 pages, 952086 bytes).
+Transcript written on main.log.
+
+[exit 0]
+
+===== D:\develop\Modex\Modex-MH-Agent\runtime\texlive\miktex\bin\x64\pdflatex.exe -interaction=nonstopmode -halt-on-error -no-shell-escape main.tex =====
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex.fmt)
+entering extended mode
+(main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(sn-jnl.cls
+Document Class: sn-jnl 2019/11/18 v0.1: An authoring template for Springer Jour
+nal articles
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/base\fleqn.clo)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.
+sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.st
+y)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty)
+)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.
+cfg))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/sttools\cuted.sty)
+
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.
+sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.
+sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.
+sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graph
+ics.cfg)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdfte
+x.def)))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\thr
+eeparttable.sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.
+sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkey
+s.sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvd
+efinekeys.sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfesc
+ape.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdfte
+xcmds.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwar
+err.sty)))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.st
+y)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.s
+ty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\g
+ettitlestring.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoption
+s.sty)))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\string
+enc.sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.de
+f)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+) (C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.st
+y
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigin
+tcalc.sty)))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.d
+ef
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rer
+unfilecheck.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\un
+iquecounter.sty)))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.st
+y)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty)
+ (C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/base\fix-cm.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1enc.def))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty)
+)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.st
+y
+For additional information on amsmath, use the `?' option.
+
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.st
+y
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.s
+ty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.
+sty))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\mathrsfs.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color
+.cfg)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor
+.ltx))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty)
+
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/ncctools\manyfoot.
+sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/ncctools\nccfoots.
+sty))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorit
+hm.sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty))
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algor
+ithmicx.sty
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algps
+eudocode.sty
+Document Style - pseudocode environments for use with the `algorithmicx' style
+)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.
+sty
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.
+sty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.s
+ty)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.
+cfg))
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backen
+d-pdftex.def) (main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-p
+df.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epsto
+pdf-base.sty
+
+Package epstopdf Warning: Shell escape feature is not enabled.
+
+
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-
+sys.cfg)) (main.out) (main.out)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd)
+(C:\Users\tianyishng\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd)
+
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <8.43146> not available
+(Font)              size <8> substituted on input line 109.
+
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <5.52061> not available
+(Font)              size <6> substituted on input line 109.
+
+(sections/01_introduction.tex
+Underfull \vbox (badness 10000) has occurred while \output is active [1{C:/User
+s/tianyishng/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Underfull \vbox (badness 10000) has occurred while \output is active [2])
+(sections/02_methods.tex
+Underfull \vbox (badness 10000) has occurred while \output is active [3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4 
+     <../figures/fig_roadmap.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active [4]
+(tables/TABLE_leakage.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active [5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.27 
+      <../figures/fig_size_frequency.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active [6
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.38 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.38 
+      <../figures/fig_leakage.pdf>] (tables/TABLE_config.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active [7
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.46 
+     ]
+Underfull \vbox (badness 10000) has occurred while \output is active [8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.57 
+      <../figures/fig_arch.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active [9])
+(sections/03_results.tex (tables/TABLE_truncation.tex
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <4.015> not available
+(Font)              size <5> substituted on input line 6.
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active [10
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.12 
+     ] (tables/TABLE_partition.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active [11
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.27 
+      <../figures/fig_truncation_control.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active [12
+pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.36 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.36 
+      <../figures/fig_partition.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active [13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.58 
+      <../figures/fig_stage_survival.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active [14
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.62 
+      <../figures/fig_contrast.pdf>] (tables/TABLE_methods.tex
+Underfull \hbox (badness 1424) in paragraph at lines 12--12
+[]\OT1/cmr/m/n/6 Na-style rescor-ing, class-
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]\OT1/cmr/m/n/6 Na-style rescor-ing, per
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+[]\OT1/cmr/m/n/6 Multi-label evi-dence +
+
+Underfull \hbox (badness 2547) in paragraph at lines 17--17
+[]\OT1/cmr/m/n/6 CCPR (multi-label peak
+
+Underfull \vbox (badness 10000) has occurred while \output is active [15
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.21 \end{table}
+                 <../figures/fig_detectors.pdf>])
+Underfull \vbox (badness 10000) has occurred while \output is active [16
+pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.84 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.84 
+      <../figures/fig_methods.pdf>] (tables/TABLE_ccpr.tex)
+(tables/TABLE_yst.tex)) (sections/04_discussion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active [17
+pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4 
+    ]
+Underfull \vbox (badness 10000) has occurred while \output is active [18
+pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.6 
+    
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.6 
+     <../figures/fig_yst.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active [19])
+(sections/05_conclusion.tex) (sections/06_declarations.tex
+Underfull \hbox (badness 1655) in paragraph at lines 9--10
+\OT1/cmr/bx/n/10.03749 Data avail-abil-ity. \OT1/cmr/m/n/10 The study uses two 
+pub-lic datasets. RicePest-30 is dis-
+
+Underfull \vbox (badness 10000) has occurred while \output is active [20])
+(sections/0A_appendix.tex (tables/TABLE_sensitivity.tex
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 \caption
+            {Sensitivity of recall and of the recovery-ceiling partition to ...
+
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5 \begin{tabular*}{\textwidth}
+                                {@{\extracolsep{\fill}}p{3.6cm}rrrrrr}
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]\OT1/cmr/m/n/6 YOLO11n, $\OML/cmm/m/it/6 T$\OT1/cmr/m/n/6 =320/0.25,
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\OT1/cmr/m/n/6 GREEDYNMM-IOS, $\OML/cmm/m/it/6 ^^\$\OT1/cmr/m/n/6 =0.25,
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]\OT1/cmr/m/n/6 GREEDYNMM-IOS, class-
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+[]\OT1/cmr/m/n/6 FCOS-R50-FPN, pri-mary
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]\OT1/cmr/m/n/6 FCOS-R50-FPN, thresh-old
+)
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10     \caption
+                 {Sensitivity of the ledger. Top: recall of small objects pe...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 ...d tilings (number of misses in brackets).}
+                                                  
+Underfull \vbox (badness 10000) has occurred while \output is active [21]
+(tables/TABLE_partition_fcos.tex
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 \caption
+            {Recovery-ceiling partition of missed objects (FCOS).}
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.21 \end{tabular}
+                  )
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25     \caption
+                 {Recovery-ceiling partition of every audit object under the...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25 ...nd layout match Fig.~\ref{fig:partition}.}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32     \caption
+                 {Stage-survival profile of the per-object ledger on the aud...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32 ...arkers are the oracle full-view read-out.}
+                                                  
+(tables/TABLE_methods_fcos.tex
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 \caption
+            {Same-dump post-processing methods on the audit set (FCOS; param...
+
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5 \begin{tabular*}{\textwidth}
+                                {@{\extracolsep{\fill}}p{3cm}rrrrrrrrr}
+Underfull \hbox (badness 1424) in paragraph at lines 12--12
+[]\OT1/cmr/m/n/6 Na-style rescor-ing, class-
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]\OT1/cmr/m/n/6 Na-style rescor-ing, per
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+[]\OT1/cmr/m/n/6 Multi-label evi-dence +
+
+Underfull \hbox (badness 2547) in paragraph at lines 17--17
+[]\OT1/cmr/m/n/6 CCPR (multi-label peak
+)
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.47     \caption
+                 {Training losses of the two frozen RicePest-30 detectors (n...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.47 ...data were used for checkpoint selection).}
+                                                  
+Underfull \vbox (badness 10000) has occurred while \output is active [22 <../fi
+gures/fig_sensitivity.pdf>]) (main.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active [23 <../fi
+gures/fig_partition_fcos.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active [24 <../fi
+gures/fig_stage_survival_fcos.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active [25 <../fi
+gures/fig_training.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active [26])
+Underfull \vbox (badness 10000) has occurred while \output is active [27]
+(main.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.985pt have occurred.
+
+ )
+(see the transcript file for additional information)<C:/Users/tianyishng/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/tia
+nyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmbx8.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmbx9.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/tianyishng/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/tianyishng/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ti
+anyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmmi9.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/tianyishng/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/tianyishng/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/tian
+yishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C
+:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr7.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr8.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr9.pfb><C:/Users/tianyishng/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/tianyishng/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/tianyish
+ng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/U
+sers/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb><C:/Users/tianyishng/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmsy9.pfb><C:/Users/tianyishng/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/tianyishng/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb><C:/Users/tianyish
+ng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/U
+sers/tianyishng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+ti9.pfb>
+Output written on main.pdf (27 pages, 958964 bytes).
+Transcript written on main.log.
+
+[exit 0]
