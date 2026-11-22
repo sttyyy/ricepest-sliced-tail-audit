@@ -131,6 +131,7 @@ print('mismatches:', len(bad))"
 
 ## 7. Reproducibility status and limits
 
+- **Frozen version:** tag [`v1.0.0`](../../releases/tag/v1.0.0) (commit `94a7abb`) is the state that produced every number in `experiment_results.md` and every figure; `CODE_MANIFEST.sha256` pins the individual files.
 - The committed `results/` are the frozen outputs behind the paper. A later from-scratch re-run from the frozen weights reproduced the candidate dumps byte-identically and every regenerated result summary exactly.
 - The ledger, statistics, methods and table/figure generation are **deterministic CPU code**: given the same frozen weights and data, they reproduce exactly.
 - GPU training is **not** bit-exact across GPUs or driver versions even with `deterministic=True`; frozen-weight sha256 values are recorded in `results/runs/*_train.json`.

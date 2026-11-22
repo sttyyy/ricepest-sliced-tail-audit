@@ -183,7 +183,7 @@ Ultralytics 的配置目录通过 `YOLO_CONFIG_DIR` 固定在 `work/ultralytics_
 ## 11. 仓库入口与冻结版本
 
 - 入口：`run_all.sh`（完整运行顺序）；细节与耗时见 `REPRODUCE.md`。
-- 冻结版本：**［提交号或标签——待团队建仓后填入根目录 README.md 的方括号处］**。在此之前，`CODE_MANIFEST.sha256` 列出了产出论文数字时 `code/`、`figures/gen_fig_*.py` 与 `configs/` 下每个文件的 sha256。
+- 冻结版本：仓库 tag `v1.0.0`（commit `94a7abb`）。`CODE_MANIFEST.sha256` 列出了产出论文数字时 `code/`、`figures/gen_fig_*.py` 与 `configs/` 下每个文件的 sha256。
 
 ---
 
