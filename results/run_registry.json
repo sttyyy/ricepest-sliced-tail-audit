@@ -1,0 +1,250 @@
+{
+  "results/audit/audit_set.json": {
+    "bytes": 33222,
+    "sha256": "73c9e416cded8b1d46bf67fb6a6d0fa0b1b435ee57a5e19558cc43f4187c5717"
+  },
+  "results/audit/class_stats.json": {
+    "bytes": 10943,
+    "sha256": "082b877f2fa2947445e32228b03ee5bc73e41365da4cacf85d58006851ba37ad"
+  },
+  "results/audit/grouping_sensitivity.json": {
+    "bytes": 3795,
+    "sha256": "1cf796184de50617f1b353e553168f3f7243aa5bc6b6036093a2d12275921d5e"
+  },
+  "results/audit/groups_tau0.json": {
+    "bytes": 96243,
+    "sha256": "edcd44b707867da8af6f66b5c34b1bf96906e4ba2fd3eb0f7186a5b3167d6c65"
+  },
+  "results/audit/groups_tau10.json": {
+    "bytes": 95868,
+    "sha256": "275be5b6243a785578c1f9541ed08f421e10a8b712d2f73165ea2268c7ff86c1"
+  },
+  "results/audit/groups_tau12.json": {
+    "bytes": 93830,
+    "sha256": "cea340b12ec456ac3d9a77aebb6ad751a2910c88002902be2d9c117105d7fdcb"
+  },
+  "results/audit/groups_tau4.json": {
+    "bytes": 96242,
+    "sha256": "69784ba20dc95e0b7f6ea5435bfc2e8e3c5df57210eb579132e1ee30ac69100e"
+  },
+  "results/audit/groups_tau6.json": {
+    "bytes": 96236,
+    "sha256": "55fee1ff7b9821e5ebc2689ade161764a143f75b7a3a136ad2da172a95089561"
+  },
+  "results/audit/groups_tau8.json": {
+    "bytes": 96085,
+    "sha256": "b4e1e1cc51fe7be19b640d4795dc96c5fcfe94f7df23a8217ef5dbc208d94fd4"
+  },
+  "results/audit/near_dup_edges.json": {
+    "bytes": 3996379,
+    "sha256": "63acd107cd89734650ad30bfc34825a2287c2410fd40cda9207c3e6acc738932"
+  },
+  "results/audit/sahi_equivalence_check.json": {
+    "bytes": 163,
+    "sha256": "c27a20cc0cb55d8415be9b33152ca687bc9ad3b3bd3b3508381752a7d52d0447"
+  },
+  "results/audit/truncation.json": {
+    "bytes": 71681,
+    "sha256": "c205e751b45de944b6c3eedd2c10873876c638924528da75202c2ce455eefdbd"
+  },
+  "results/ledger/AP-yolo-T320-nms.json": {
+    "bytes": 1641,
+    "sha256": "f31bed2815aa19dd2d3ea6ff4a5477aff5093d43134e4b6167404268a9bb0d50"
+  },
+  "results/ledger/AP-yolo-T320.json": {
+    "bytes": 1632,
+    "sha256": "b10d296449568dc6e1379e07e709cf6401b2faca1fbcab70a15875e625b89fb5"
+  },
+  "results/ledger/AP-yolo-fullimage.json": {
+    "bytes": 1633,
+    "sha256": "0286bffa45d16fe4776756a55eb856e4dd9da89d596a5b1f7c5ca88ac5631692"
+  },
+  "results/ledger/R3-ledger-yolo-T320.json": {
+    "bytes": 45499,
+    "sha256": "2c3d362df17f02fe916aab93eebcc00089803522370add8d5b18e0a5fe8d5f59"
+  },
+  "results/ledger/R3-ledger-yolo-T320_objects.csv": {
+    "bytes": 731513,
+    "sha256": "129bc4d5d09cfe097e0e88607d99c8f2c4d45ccf824ba76ba0a4155552642b7b"
+  },
+  "results/ledger/R7-ledger-fcos-T320.json": {
+    "bytes": 44101,
+    "sha256": "da0b1f32ab78a6c1c8c2f1ea809a45abb59ce7591abc425b69a1d62d9f2067e1"
+  },
+  "results/ledger/R7-ledger-fcos-T320_objects.csv": {
+    "bytes": 753880,
+    "sha256": "fad6562f6465bc540437cd6b6f91358cef0310dddda71bc2f073b41310eab3d8"
+  },
+  "results/ledger/R8-ledger-yst-T640.json": {
+    "bytes": 22045,
+    "sha256": "144f3ee1ab4bdd05f1f0b0e3456bddb0da268e10a58974b0b71006b94e4e5bb7"
+  },
+  "results/ledger/R8-ledger-yst-T640_objects.csv": {
+    "bytes": 289999,
+    "sha256": "9cfa4cf97da9179c01da9489771f09e98b1efee23da6aeb3c9cc727de032f44c"
+  },
+  "results/ledger/S-ledger-fcos-T320-greedynmm_ios_prethr.json": {
+    "bytes": 41443,
+    "sha256": "84d71eda9a500a3d23ec0c86508a3704eb6a550ae7fb5367ed65099ae0fca4cb"
+  },
+  "results/ledger/S-ledger-fcos-T320-greedynmm_ios_prethr_objects.csv": {
+    "bytes": 722846,
+    "sha256": "66a963da1fa7cfbd026910f54beb0dc0e906216e6aff00fe34e61a784ad7517c"
+  },
+  "results/ledger/S-ledger-fcos-T320-nms_iou.json": {
+    "bytes": 42791,
+    "sha256": "9f981c0eb07f88cab6ea53a18b512c063da6910f623e00c493ac0117b46a4ee5"
+  },
+  "results/ledger/S-ledger-fcos-T320-nms_iou_objects.csv": {
+    "bytes": 721180,
+    "sha256": "ab8ab8b6c42b90531943f5d882b01103a808f292133a0a9f5b502e34b842dd82"
+  },
+  "results/ledger/S-ledger-yolo-T256.json": {
+    "bytes": 45479,
+    "sha256": "28922f9078b063de3a6ff38036b9be64f2bc03db82abe32c7594317c70d01a46"
+  },
+  "results/ledger/S-ledger-yolo-T320-agn.json": {
+    "bytes": 45414,
+    "sha256": "cdb7043f7154ae7443d428bdf9cd0c502b1b46490fa3324f893a3fe7aec7c922"
+  },
+  "results/ledger/S-ledger-yolo-T320-cap10.json": {
+    "bytes": 46886,
+    "sha256": "f520406a6166a8f268049a24c500116f1a16d5ab3c2b9d7605dc4fc2fba2dca4"
+  },
+  "results/ledger/S-ledger-yolo-T320-cap20.json": {
+    "bytes": 46793,
+    "sha256": "6f988d26d919e1100f5276fd38b289de5cac2c737731206fb4784e0e44864780"
+  },
+  "results/ledger/S-ledger-yolo-T320-cap300.json": {
+    "bytes": 44880,
+    "sha256": "98055ddb9956e203e72b03cb5d713531d1c55ab102dec71da5e2dc1717f944c3"
+  },
+  "results/ledger/S-ledger-yolo-T320-cap50.json": {
+    "bytes": 45926,
+    "sha256": "3eb2eb20298c2798ea0c2598845850330cf3373ae2a2938084c3080f8c6198a1"
+  },
+  "results/ledger/S-ledger-yolo-T320-nms.json": {
+    "bytes": 44544,
+    "sha256": "e3c0eb4c67b6770b75024f2ca87c64a31450293fa6fff8332cd4617022e9a60b"
+  },
+  "results/ledger/S-ledger-yolo-T320-nms_objects.csv": {
+    "bytes": 728552,
+    "sha256": "fb2f5594925fa799760ca700f6d462eec02e7cf776a814fb293d78b089b50f74"
+  },
+  "results/ledger/S-ledger-yolo-T320-ov0.json": {
+    "bytes": 45445,
+    "sha256": "01b1d7b4de6bd40574ee7c3e6072cc19d6272d9354206b6492079905bfd8b4d8"
+  },
+  "results/ledger/S-ledger-yolo-T320-pcc10.json": {
+    "bytes": 46805,
+    "sha256": "8ac18a3c01cfb0c7c1d7a9ff5b5fbbafa3e2aa40940cc1eed14bba7e9e3dc9c0"
+  },
+  "results/ledger/S-ledger-yolo-T320-pcc20.json": {
+    "bytes": 46108,
+    "sha256": "fdc154ce7cdbc3ed7c7a119de2abf33e7e03da9d6364e997677b9d9ecdd8f0fc"
+  },
+  "results/ledger/S-ledger-yolo-T320-pcc5.json": {
+    "bytes": 47382,
+    "sha256": "1db5c44851113d8185c9be462206432d0b081611b5db1511c807009fbfdb0863"
+  },
+  "results/ledger/S-ledger-yolo-T320-prethr.json": {
+    "bytes": 41619,
+    "sha256": "1f2ed41b4ac26e4a390a357723c2aad5ce9948f8cdae3638ba0ce63ca7dc1649"
+  },
+  "results/ledger/S-ledger-yolo-T320-tau0.1.json": {
+    "bytes": 45964,
+    "sha256": "94e46e2c178f9044eda0a4b8fb400c56bb6e43623f7cfd96febbe621646b86e3"
+  },
+  "results/ledger/S-ledger-yolo-T320-tau0.4.json": {
+    "bytes": 45131,
+    "sha256": "41b1e1bea43de3b7598e2de6b02ce06cd524f8c703a7f47f6d2313ba077c61c5"
+  },
+  "results/ledger/S-ledger-yolo-T480.json": {
+    "bytes": 44674,
+    "sha256": "1700b96109346bbe9a474f66bf6471683a90dfedbff49d3975be32f1fdc7bdd1"
+  },
+  "results/ledger/S-ledger-yolo-fullimage.json": {
+    "bytes": 44419,
+    "sha256": "d335d78735c9bd75e08b64090876869bec9951421c968d0a0f55554eda8a04a2"
+  },
+  "results/ledger/S-ledger-yst-T640-cap300.json": {
+    "bytes": 21495,
+    "sha256": "f3829605c1e565044884d4953ff531baaeb9d8954f72c8fdde1744c260d4e455"
+  },
+  "results/ledger/S-ledger-yst-T640-nms-cap300.json": {
+    "bytes": 22278,
+    "sha256": "2ada9743ca662f53baa9ad816fe330a5492980430a57103781cdb16b599d3a29"
+  },
+  "results/ledger/S-ledger-yst-T640-nms.json": {
+    "bytes": 22302,
+    "sha256": "7c6710ba11c972faa9009e9036cdd9f86b13c87c60805cdb85299159210ad336"
+  },
+  "results/ledger/S-ledger-yst-T640-prethr.json": {
+    "bytes": 21140,
+    "sha256": "c803772e76e4a566eb3a19537d44a751f599de9c10fa9d21015a784c8c7d2efd"
+  },
+  "results/methods/R5R9-methods-fcos.json": {
+    "bytes": 57696,
+    "sha256": "18c0cb1c14f5140a2c0f611673b08832bcb7009f1240f2701fab7d3ca70fde61"
+  },
+  "results/methods/R5R9-methods-yolo-nms.json": {
+    "bytes": 57556,
+    "sha256": "8db13dbcebf14938d650f15b8a41b0b08ca906c6257104652e8a3a001d4f30fc"
+  },
+  "results/methods/R5R9-methods-yolo.json": {
+    "bytes": 57583,
+    "sha256": "03396fb9bd07d3c0e42cf9145e75f3319860a065bf1cba99b246e577c8ba8986"
+  },
+  "results/runs/fcos_rice_s0_train.json": {
+    "bytes": 463,
+    "sha256": "9fcf66441e4575ba3b9e6a88f8a2755efbac503c2480415c01388e892ef1a0f1"
+  },
+  "results/runs/fcos_rice_s0_train_log.json": {
+    "bytes": 11856,
+    "sha256": "e13c5dd1cf380720d002be890b8cba17530205813d6413de102d7dbc5e08df0d"
+  },
+  "results/runs/yolo11n_rice_s0_train.json": {
+    "bytes": 502,
+    "sha256": "0764f07f9e5523c9cf6df3dceecae2f5f2c30d02e62b5f642005eb2738c2bf38"
+  },
+  "results/runs/yolo11n_rice_s0_train_log.csv": {
+    "bytes": 5290,
+    "sha256": "1e6bbefd5fc861685f83d2a91a19fb4bd2bf019ba49258122655b0b28cb06447"
+  },
+  "results/runs/yolo11n_yst_s0_train.json": {
+    "bytes": 523,
+    "sha256": "c7d40c427d1cd40337d2c9608d4f2b097406d34be75eac8a3ddab4b34d0a654e"
+  },
+  "results/runs/yolo11n_yst_s0_train_log.csv": {
+    "bytes": 1922,
+    "sha256": "a930d19cca01590322b05c37cf85817a778a9d771c5eebe8f3234d63d00b1cd7"
+  },
+  "results/stats/R3-ledger-yolo-T320_stats.json": {
+    "bytes": 30097,
+    "sha256": "6d5d42048ba5696d9d8412468fd5d190c63fda56c624786cd53a5a11bef35e1f"
+  },
+  "results/stats/R7-ledger-fcos-T320_stats.json": {
+    "bytes": 28615,
+    "sha256": "94431687c15bbb4b82a96b1397db385b4c09e48e53f2aae090a19accc1c5c2c1"
+  },
+  "results/stats/S-ledger-fcos-T320-nms_iou_stats.json": {
+    "bytes": 29500,
+    "sha256": "e44da938dd28d9086bdee099fd624465a948ec1e84057a1967d40abe0d25c20a"
+  },
+  "results/stats/S-ledger-yolo-T320-nms_stats.json": {
+    "bytes": 29396,
+    "sha256": "f7c5ce2ab1720a00919169c925e0e9599f2d108e71b3f41f86ca25269e2cbf43"
+  },
+  "results/stats/descriptives.json": {
+    "bytes": 3452,
+    "sha256": "03274fe9f5631dc64a3920f81f1dc828df838ecf97a1b8993b2445fbd4d88a34"
+  },
+  "results/yst/split.json": {
+    "bytes": 9025,
+    "sha256": "b4e443839d0f8c6d761b40388caa2a27a9bca9eef695c88ddd6a69648f4a9b34"
+  },
+  "results/yst/truncation.json": {
+    "bytes": 7098,
+    "sha256": "cf233f5e0612e1f1c75dd6ebbc1392d093c4c117b0c68fab5ed628c905c62a3a"
+  }
+}

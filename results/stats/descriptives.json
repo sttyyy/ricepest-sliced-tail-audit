@@ -1,0 +1,128 @@
+{
+  "tail_classes_audit": {
+    "16 Jacobiasca formosana": {
+      "n": 29,
+      "detected": 13,
+      "small_n": 25,
+      "small_detected": 9,
+      "post_hoc_recoverable": 6,
+      "small_post_hoc_recoverable": 6,
+      "no_candidate": 8,
+      "small_no_candidate": 8,
+      "pre_suppression_only": 2,
+      "small_pre_suppression_only": 2
+    },
+    "4 Scirpophaga incertulas": {
+      "n": 41,
+      "detected": 14,
+      "small_n": 9,
+      "small_detected": 2,
+      "no_candidate": 20,
+      "post_hoc_recoverable": 6,
+      "small_post_hoc_recoverable": 3,
+      "small_no_candidate": 4,
+      "pre_suppression_only": 1
+    },
+    "29 Spodoptera exigua": {
+      "n": 19,
+      "post_hoc_recoverable": 5,
+      "no_candidate": 6,
+      "small_n": 2,
+      "small_no_candidate": 2,
+      "detected": 7,
+      "pre_suppression_only": 1
+    },
+    "21 Spodoptera litura": {
+      "n": 31,
+      "no_candidate": 4,
+      "detected": 22,
+      "post_hoc_recoverable": 4,
+      "pre_suppression_only": 1,
+      "small_n": 1,
+      "small_no_candidate": 1
+    },
+    "8 Agrotis ipsilon": {
+      "n": 28,
+      "no_candidate": 10,
+      "post_hoc_recoverable": 7,
+      "detected": 11,
+      "small_n": 1,
+      "small_no_candidate": 1
+    },
+    "28 Helicoverpa armigera": {
+      "n": 54,
+      "post_hoc_recoverable": 19,
+      "detected": 35
+    },
+    "23 Trichoplusia ni": {
+      "n": 23,
+      "no_candidate": 7,
+      "post_hoc_recoverable": 4,
+      "detected": 12
+    },
+    "30 Diaphania pyloalis": {
+      "n": 6,
+      "detected": 6
+    },
+    "17 Geometridae": {
+      "n": 6,
+      "detected": 5,
+      "no_candidate": 1
+    },
+    "11 Dytiscidae": {
+      "n": 11,
+      "post_hoc_recoverable": 1,
+      "detected": 8,
+      "pre_suppression_only": 2
+    }
+  },
+  "leakage_effect": {
+    "head": {
+      "audit_n": 3513,
+      "audit_recall": 0.8240819812126388,
+      "contaminated_n": 1839,
+      "contaminated_recall": 0.8569874932028276,
+      "small_audit": "1283/1686",
+      "small_contaminated": "591/770"
+    },
+    "mid": {
+      "audit_n": 668,
+      "audit_recall": 0.7215568862275449,
+      "contaminated_n": 485,
+      "contaminated_recall": 0.7855670103092783,
+      "small_audit": "88/114",
+      "small_contaminated": "36/63"
+    },
+    "tail": {
+      "audit_n": 248,
+      "audit_recall": 0.5362903225806451,
+      "contaminated_n": 93,
+      "contaminated_recall": 0.8172043010752689,
+      "small_audit": "11/38",
+      "small_contaminated": "5/9"
+    },
+    "all": {
+      "audit_n": 4429,
+      "audit_recall": 0.7925039512305261,
+      "contaminated_n": 2417,
+      "contaminated_recall": 0.8411253620190319,
+      "small_audit": "1382/1838",
+      "small_contaminated": "632/842"
+    }
+  },
+  "yolo_vs_fcos_tail_small_category": {
+    "detected|detected": 1,
+    "detected|post_hoc_recoverable": 1,
+    "detected|pre_suppression_only": 9,
+    "no_candidate|detected": 1,
+    "no_candidate|no_candidate": 8,
+    "no_candidate|post_hoc_recoverable": 4,
+    "no_candidate|pre_suppression_only": 3,
+    "post_hoc_recoverable|detected": 1,
+    "post_hoc_recoverable|no_candidate": 1,
+    "post_hoc_recoverable|post_hoc_recoverable": 2,
+    "post_hoc_recoverable|pre_suppression_only": 5,
+    "pre_suppression_only|detected": 1,
+    "pre_suppression_only|pre_suppression_only": 1
+  }
+}

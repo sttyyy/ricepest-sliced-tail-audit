@@ -1,0 +1,458 @@
+[
+  {
+    "epoch": 1,
+    "iter": 200,
+    "loss": 1.9121635663509369,
+    "classification": 0.33348914980888367,
+    "bbox_regression": 0.3183508515357971,
+    "bbox_ctrness": 0.6508901715278625
+  },
+  {
+    "epoch": 1,
+    "iter": 400,
+    "loss": 1.5140279698371888,
+    "classification": 0.42148736119270325,
+    "bbox_regression": 0.24224068224430084,
+    "bbox_ctrness": 0.6491109132766724
+  },
+  {
+    "epoch": 1,
+    "iter": 600,
+    "loss": 1.4305666440725326,
+    "classification": 0.4893355071544647,
+    "bbox_regression": 0.2998577952384949,
+    "bbox_ctrness": 0.6453394889831543
+  },
+  {
+    "epoch": 1,
+    "iter": 800,
+    "loss": 1.3713062715530395,
+    "classification": 0.39147743582725525,
+    "bbox_regression": 0.2117643505334854,
+    "bbox_ctrness": 0.6193149089813232
+  },
+  {
+    "epoch": 1,
+    "iter": 1000,
+    "loss": 1.32822858273983,
+    "classification": 0.30249834060668945,
+    "bbox_regression": 0.28084251284599304,
+    "bbox_ctrness": 0.6287226676940918
+  },
+  {
+    "epoch": 1,
+    "iter": 1200,
+    "loss": 1.319054784178734,
+    "classification": 0.31514519453048706,
+    "bbox_regression": 0.24501386284828186,
+    "bbox_ctrness": 0.6472283005714417
+  },
+  {
+    "epoch": 1,
+    "iter": 1400,
+    "loss": 1.2788144916296005,
+    "classification": 0.4214265048503876,
+    "bbox_regression": 0.20346179604530334,
+    "bbox_ctrness": 0.6110047698020935
+  },
+  {
+    "epoch": 1,
+    "iter": 1600,
+    "loss": 1.2594198009371758,
+    "classification": 0.2852279543876648,
+    "bbox_regression": 0.18806496262550354,
+    "bbox_ctrness": 0.6272032856941223
+  },
+  {
+    "epoch": 1,
+    "iter": 1800,
+    "loss": 1.2256900423765182,
+    "classification": 0.34366628527641296,
+    "bbox_regression": 0.3122834861278534,
+    "bbox_ctrness": 0.6299906969070435
+  },
+  {
+    "epoch": 2,
+    "iter": 2000,
+    "loss": 0.5807286965847015,
+    "classification": 0.26241645216941833,
+    "bbox_regression": 0.2690485119819641,
+    "bbox_ctrness": 0.6343775987625122
+  },
+  {
+    "epoch": 2,
+    "iter": 2200,
+    "loss": 1.1861197131872177,
+    "classification": 0.473073810338974,
+    "bbox_regression": 0.194442480802536,
+    "bbox_ctrness": 0.6330798268318176
+  },
+  {
+    "epoch": 2,
+    "iter": 2400,
+    "loss": 1.17790568202734,
+    "classification": 0.2414158135652542,
+    "bbox_regression": 0.20352701842784882,
+    "bbox_ctrness": 0.6214600801467896
+  },
+  {
+    "epoch": 2,
+    "iter": 2600,
+    "loss": 1.177193033695221,
+    "classification": 0.31137800216674805,
+    "bbox_regression": 0.3079185485839844,
+    "bbox_ctrness": 0.6432721018791199
+  },
+  {
+    "epoch": 2,
+    "iter": 2800,
+    "loss": 1.18244441986084,
+    "classification": 0.31584298610687256,
+    "bbox_regression": 0.2070469856262207,
+    "bbox_ctrness": 0.6468169093132019
+  },
+  {
+    "epoch": 2,
+    "iter": 3000,
+    "loss": 1.1856105816364289,
+    "classification": 0.3571905195713043,
+    "bbox_regression": 0.2612205743789673,
+    "bbox_ctrness": 0.5998566150665283
+  },
+  {
+    "epoch": 2,
+    "iter": 3200,
+    "loss": 1.1494896686077118,
+    "classification": 0.31120437383651733,
+    "bbox_regression": 0.1998649686574936,
+    "bbox_ctrness": 0.6261905431747437
+  },
+  {
+    "epoch": 2,
+    "iter": 3400,
+    "loss": 1.1487935581803321,
+    "classification": 0.2796737253665924,
+    "bbox_regression": 0.24618226289749146,
+    "bbox_ctrness": 0.6397267580032349
+  },
+  {
+    "epoch": 2,
+    "iter": 3600,
+    "loss": 1.1432103803753852,
+    "classification": 0.2674768567085266,
+    "bbox_regression": 0.2450779676437378,
+    "bbox_ctrness": 0.6519378423690796
+  },
+  {
+    "epoch": 2,
+    "iter": 3800,
+    "loss": 1.1546746122837066,
+    "classification": 0.3523283004760742,
+    "bbox_regression": 0.10290290415287018,
+    "bbox_ctrness": 0.6185324192047119
+  },
+  {
+    "epoch": 3,
+    "iter": 4000,
+    "loss": 1.0836665722727776,
+    "classification": 0.23749332129955292,
+    "bbox_regression": 0.24738405644893646,
+    "bbox_ctrness": 0.6327809691429138
+  },
+  {
+    "epoch": 3,
+    "iter": 4200,
+    "loss": 1.1158072707056998,
+    "classification": 0.20059862732887268,
+    "bbox_regression": 0.193619042634964,
+    "bbox_ctrness": 0.6215776801109314
+  },
+  {
+    "epoch": 3,
+    "iter": 4400,
+    "loss": 1.1128008669614793,
+    "classification": 0.2013150006532669,
+    "bbox_regression": 0.20205573737621307,
+    "bbox_ctrness": 0.612949550151825
+  },
+  {
+    "epoch": 3,
+    "iter": 4600,
+    "loss": 1.1027730786800385,
+    "classification": 0.24383391439914703,
+    "bbox_regression": 0.23335129022598267,
+    "bbox_ctrness": 0.6114583015441895
+  },
+  {
+    "epoch": 3,
+    "iter": 4800,
+    "loss": 1.100256813764572,
+    "classification": 0.3512834906578064,
+    "bbox_regression": 0.1932181417942047,
+    "bbox_ctrness": 0.6332999467849731
+  },
+  {
+    "epoch": 3,
+    "iter": 5000,
+    "loss": 1.097356683909893,
+    "classification": 0.24533985555171967,
+    "bbox_regression": 0.25652527809143066,
+    "bbox_ctrness": 0.6221455931663513
+  },
+  {
+    "epoch": 3,
+    "iter": 5200,
+    "loss": 1.0705306068062783,
+    "classification": 0.17664989829063416,
+    "bbox_regression": 0.2232186496257782,
+    "bbox_ctrness": 0.6404176950454712
+  },
+  {
+    "epoch": 3,
+    "iter": 5400,
+    "loss": 1.0788054487109184,
+    "classification": 0.19382083415985107,
+    "bbox_regression": 0.14577476680278778,
+    "bbox_ctrness": 0.6244322657585144
+  },
+  {
+    "epoch": 3,
+    "iter": 5600,
+    "loss": 1.0784693136811256,
+    "classification": 0.27524900436401367,
+    "bbox_regression": 0.23050707578659058,
+    "bbox_ctrness": 0.6247422695159912
+  },
+  {
+    "epoch": 4,
+    "iter": 5800,
+    "loss": 0.48550820916891096,
+    "classification": 0.1679370403289795,
+    "bbox_regression": 0.16722193360328674,
+    "bbox_ctrness": 0.6125083565711975
+  },
+  {
+    "epoch": 4,
+    "iter": 6000,
+    "loss": 1.0448824173212052,
+    "classification": 0.22622688114643097,
+    "bbox_regression": 0.25017258524894714,
+    "bbox_ctrness": 0.6382647156715393
+  },
+  {
+    "epoch": 4,
+    "iter": 6200,
+    "loss": 1.0387793096899987,
+    "classification": 0.2449840009212494,
+    "bbox_regression": 0.21896696090698242,
+    "bbox_ctrness": 0.6391069293022156
+  },
+  {
+    "epoch": 4,
+    "iter": 6400,
+    "loss": 1.0461505648493767,
+    "classification": 0.21545173227787018,
+    "bbox_regression": 0.2231198102235794,
+    "bbox_ctrness": 0.615619957447052
+  },
+  {
+    "epoch": 4,
+    "iter": 6600,
+    "loss": 1.0423190569877625,
+    "classification": 0.3333703279495239,
+    "bbox_regression": 0.2618868052959442,
+    "bbox_ctrness": 0.6290557384490967
+  },
+  {
+    "epoch": 4,
+    "iter": 6800,
+    "loss": 1.0428721392154694,
+    "classification": 0.19629943370819092,
+    "bbox_regression": 0.2575170397758484,
+    "bbox_ctrness": 0.6199498772621155
+  },
+  {
+    "epoch": 4,
+    "iter": 7000,
+    "loss": 1.0246325436234474,
+    "classification": 0.17647944390773773,
+    "bbox_regression": 0.14385081827640533,
+    "bbox_ctrness": 0.618975043296814
+  },
+  {
+    "epoch": 4,
+    "iter": 7200,
+    "loss": 1.0399697154760361,
+    "classification": 0.16354455053806305,
+    "bbox_regression": 0.20431359112262726,
+    "bbox_ctrness": 0.648051381111145
+  },
+  {
+    "epoch": 4,
+    "iter": 7400,
+    "loss": 1.0224747973680497,
+    "classification": 0.25449103116989136,
+    "bbox_regression": 0.19428107142448425,
+    "bbox_ctrness": 0.6191872358322144
+  },
+  {
+    "epoch": 4,
+    "iter": 7600,
+    "loss": 1.0237168791890143,
+    "classification": 0.21664287149906158,
+    "bbox_regression": 0.24808833003044128,
+    "bbox_ctrness": 0.6260133385658264
+  },
+  {
+    "epoch": 5,
+    "iter": 7800,
+    "loss": 0.9511093792319297,
+    "classification": 0.26956838369369507,
+    "bbox_regression": 0.20575271546840668,
+    "bbox_ctrness": 0.6241016983985901
+  },
+  {
+    "epoch": 5,
+    "iter": 8000,
+    "loss": 1.0061208644509316,
+    "classification": 0.13317587971687317,
+    "bbox_regression": 0.16682876646518707,
+    "bbox_ctrness": 0.6292851567268372
+  },
+  {
+    "epoch": 5,
+    "iter": 8200,
+    "loss": 0.9921422812342644,
+    "classification": 0.22574633359909058,
+    "bbox_regression": 0.19631285965442657,
+    "bbox_ctrness": 0.622002363204956
+  },
+  {
+    "epoch": 5,
+    "iter": 8400,
+    "loss": 0.9901936638355255,
+    "classification": 0.2078542858362198,
+    "bbox_regression": 0.17622578144073486,
+    "bbox_ctrness": 0.6237502098083496
+  },
+  {
+    "epoch": 5,
+    "iter": 8600,
+    "loss": 0.9930118599534035,
+    "classification": 0.11067438870668411,
+    "bbox_regression": 0.1678953915834427,
+    "bbox_ctrness": 0.599026083946228
+  },
+  {
+    "epoch": 5,
+    "iter": 8800,
+    "loss": 0.996399376988411,
+    "classification": 0.2581101059913635,
+    "bbox_regression": 0.2585819661617279,
+    "bbox_ctrness": 0.6151781678199768
+  },
+  {
+    "epoch": 5,
+    "iter": 9000,
+    "loss": 0.9934614750742913,
+    "classification": 0.1750919669866562,
+    "bbox_regression": 0.17364946007728577,
+    "bbox_ctrness": 0.6213006377220154
+  },
+  {
+    "epoch": 5,
+    "iter": 9200,
+    "loss": 0.9912590426206589,
+    "classification": 0.17987221479415894,
+    "bbox_regression": 0.24346035718917847,
+    "bbox_ctrness": 0.6082527041435242
+  },
+  {
+    "epoch": 5,
+    "iter": 9400,
+    "loss": 0.9918360027670861,
+    "classification": 0.21421511471271515,
+    "bbox_regression": 0.233143612742424,
+    "bbox_ctrness": 0.6161472797393799
+  },
+  {
+    "epoch": 6,
+    "iter": 9600,
+    "loss": 0.4110454121232033,
+    "classification": 0.2150268852710724,
+    "bbox_regression": 0.16469800472259521,
+    "bbox_ctrness": 0.6128213405609131
+  },
+  {
+    "epoch": 6,
+    "iter": 9800,
+    "loss": 0.9689542344212532,
+    "classification": 0.1768895834684372,
+    "bbox_regression": 0.16580599546432495,
+    "bbox_ctrness": 0.6009634137153625
+  },
+  {
+    "epoch": 6,
+    "iter": 10000,
+    "loss": 0.9644134747982025,
+    "classification": 0.1580210030078888,
+    "bbox_regression": 0.1952638179063797,
+    "bbox_ctrness": 0.6194838285446167
+  },
+  {
+    "epoch": 6,
+    "iter": 10200,
+    "loss": 0.9755841872096062,
+    "classification": 0.12434758245944977,
+    "bbox_regression": 0.11539696156978607,
+    "bbox_ctrness": 0.6020374298095703
+  },
+  {
+    "epoch": 6,
+    "iter": 10400,
+    "loss": 0.9675011736154556,
+    "classification": 0.14489291608333588,
+    "bbox_regression": 0.17850962281227112,
+    "bbox_ctrness": 0.6141518354415894
+  },
+  {
+    "epoch": 6,
+    "iter": 10600,
+    "loss": 0.9676882866024971,
+    "classification": 0.1308448612689972,
+    "bbox_regression": 0.1543925553560257,
+    "bbox_ctrness": 0.6112862825393677
+  },
+  {
+    "epoch": 6,
+    "iter": 10800,
+    "loss": 0.9674781814217568,
+    "classification": 0.1468818485736847,
+    "bbox_regression": 0.1337638944387436,
+    "bbox_ctrness": 0.6235585808753967
+  },
+  {
+    "epoch": 6,
+    "iter": 11000,
+    "loss": 0.9644408586621285,
+    "classification": 0.18286798894405365,
+    "bbox_regression": 0.22656604647636414,
+    "bbox_ctrness": 0.6357713341712952
+  },
+  {
+    "epoch": 6,
+    "iter": 11200,
+    "loss": 0.9683778414130211,
+    "classification": 0.23756958544254303,
+    "bbox_regression": 0.16605223715305328,
+    "bbox_ctrness": 0.6097375750541687
+  },
+  {
+    "epoch": 6,
+    "iter": 11400,
+    "loss": 0.9680958861112594,
+    "classification": 0.2024453729391098,
+    "bbox_regression": 0.18679438531398773,
+    "bbox_ctrness": 0.6067443490028381
+  }
+]

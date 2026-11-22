@@ -1,0 +1,11 @@
+# CPU / analysis stack used for the paper (Python 3.11).
+# The pinned versions are the ones recorded in DATA_SOURCES.md and used for the reported
+# numbers. opencv and PyMuPDF are left unpinned on purpose: the paper only records
+# "opencv 4.10/4.13" and no exact PyMuPDF version.
+numpy==2.4.6
+scipy==1.17.1
+pandas==2.3.3
+pillow==12.1.1
+matplotlib==3.10.8
+opencv-python>=4.10
+PyMuPDF

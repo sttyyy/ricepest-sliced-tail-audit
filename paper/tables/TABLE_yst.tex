@@ -1,0 +1,16 @@
+\begin{table}[!htbp]
+\scriptsize
+\caption{Native-resolution source re-check on Yellow Sticky Traps (held-out test images, YOLO11n trained on native 640-pixel tiles).}
+\label{tab:yst}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrrrr}
+\toprule
+Class & $N$ & No full view & \multicolumn{2}{c}{Frozen pipeline} & \multicolumn{2}{c}{NMS read-out, cap 300} \\ \cmidrule(lr){4-5}\cmidrule(lr){6-7} & & & Recall (\%) & Misses N/P/H & Recall (\%) & Misses N/P/H \\
+\midrule
+WF & 1882 & 0/1882 & 38.8 & 15/955/182 & 92.0 & 15/56/80 \\
+MR & 584 & 8/584 & 66.1 & 7/155/36 & 89.2 & 8/12/43 \\
+NC & 257 & 1/257 & 81.7 & 2/45/0 & 96.9 & 3/4/1 \\
+All & 2723 & 9/2723 & 48.7 & 24/1155/218 & 91.8 & 26/72/124 \\
+\bottomrule
+\end{tabular*}
+\footnotetext{Native 5184$\times$3456 images, SAHI $T$=640, overlap 0.25 plus the full-image view; frozen pipeline = same read-out and operating point as RicePest-30. N/P/H: no candidate / pre-suppression only / post-hoc recoverable. Precision of all emitted boxes: 52.3\%. WF: \textit{Trialeurodes vaporariorum} (whitefly); MR: \textit{Macrolophus pygmaeus}; NC: \textit{Nesidiocoris tenuis}. Three classes, 8.4$\times$ imbalance: not a long-tail test.}
+\end{table}

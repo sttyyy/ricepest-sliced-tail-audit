@@ -1,0 +1,21 @@
+\begin{table}[!htbp]
+\fontsize{6pt}{7pt}\selectfont
+\caption{Same-dump post-processing methods on the audit set (FCOS; parameters fit by 5-fold group cross-fitting).}
+\label{tab:methods-fcos}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{3cm}rrrrrrrrr}
+\toprule
+Method & \multicolumn{4}{c}{Own operating point} & \multicolumn{5}{c}{Matched false positives} \\ \cmidrule(lr){2-5}\cmidrule(lr){6-10} & R all & \shortstack{Tail\\small} & \shortstack{P\\head} & FP & R all & \shortstack{R head\\small} & \shortstack{Tail\\small} & \shortstack{Recov.\\P/H/N} & Lost \\
+\midrule
+SAHI baseline (frozen) & 48.9 & 4/38 & 11.6 & 31226 & 48.9 & 52.7 & 4/38 & 0/0/0 & 0 \\
+NorCal-style prior correction & 42.9 & 7/38 & 18.8 & 33743 & 42.8 & 41.9 & 7/38 & 0/10/0 & 279 \\
+Class$\times$size thresholds & 24.4 & 2/38 & 5.2 & 32691 & 19.4 & 21.5 & 1/38 & 0/2/0 & 1310 \\
+Na-style rescoring, class-agnostic & 47.4 & 4/38 & 14.8 & 24582 & 48.0 & 51.4 & 5/38 & 0/49/0 & 89 \\
+Na-style rescoring, per class & 41.0 & 4/38 & 17.9 & 16355 & 44.7 & 47.4 & 5/38 & 0/42/0 & 227 \\
+Multi-label evidence + SAHI merge + thr. & 24.4 & 2/38 & 5.2 & 32691 & 19.4 & 21.5 & 1/38 & 0/2/0 & 1310 \\
+Peak read-out on std evidence + thr. & 69.5 & 6/38 & 60.2 & 2897 & 88.9 & 85.8 & 20/38 & 1812/20/2 & 62 \\
+CCPR without class$\times$size thr. & 90.0 & 18/38 & 19.2 & 32200 & 89.9 & 86.1 & 18/38 & 1829/10/2 & 27 \\
+CCPR (multi-label peak read-out + thr.) & 69.5 & 6/38 & 60.2 & 2897 & 88.9 & 85.8 & 20/38 & 1812/20/2 & 62 \\
+\bottomrule
+\end{tabular*}
+\footnotetext{R: recall@0.5 (\%); P head: precision of emitted head-class boxes (\%); tail-small: detected/total. Matched FP: one global threshold per method chosen so that its total false positives do not exceed the baseline's. Recov.\ P/H/N: baseline misses recovered at matched FP, by the baseline's recovery-ceiling category (pre-suppression only / post-hoc recoverable / no candidate); Lost: baseline detections no longer detected.}
+\end{table}

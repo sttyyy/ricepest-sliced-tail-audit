@@ -1,0 +1,23 @@
+\begin{table}[!htbp]
+\centering
+\scriptsize
+\caption{Frozen configuration (written to \texttt{configs/prereg\_frozen.json} before any detector output existed).}
+\label{tab:config}
+\begin{tabular}{lp{0.72\linewidth}}
+\toprule
+Component & Setting \\
+\midrule
+Detector A & YOLO11n, COCO init, 640 input, 60 epochs, batch 16, seed 0, last checkpoint (no selection on validation) \\
+Detector B & FCOS-ResNet50-FPN (torchvision), COCO init, 640, 6 epochs, batch 4, last checkpoint \\
+Reference frame & image resized to 640-pixel long edge; size bins on box area in this frame \\
+Views & full image + SAHI tiles $T$=320, overlap 0.25 (stride 240); every view letterboxed to 640 \\
+Candidate dump & per-view score floor 0.01, per-view NMS IoU 0.7, max 300 boxes; single label per anchor \\
+Read-out (merge) & SAHI GREEDYNMM, IOS 0.5, class-aware, on the floor-level dump \\
+Operating point & score $\geq$0.25, at most 100 boxes per image; matching IoU $\geq$0.5, one-to-one \\
+Grouping & 64-bit pHash, Hamming $\leq$8 with a shared class, or identical MD5; connected components \\
+Audit set & validation images whose component holds no training image \\
+Statistics & cluster percentile bootstrap over audit groups (2,000), Holm over 3 categories, class-label permutation (10,000) \\
+Weights hash & YOLO11n bcde46c946b0; FCOS f41271c04f8e \\
+\bottomrule
+\end{tabular}
+\end{table}

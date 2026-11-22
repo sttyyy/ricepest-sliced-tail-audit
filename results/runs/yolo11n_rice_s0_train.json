@@ -1,0 +1,16 @@
+{
+  "run_id": "R2-yolo11n_rice_s0",
+  "detector": "YOLO11n",
+  "init": "yolo11n.pt",
+  "init_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "epochs": 60,
+  "imgsz": 640,
+  "batch": 16,
+  "seed": 0,
+  "deterministic": true,
+  "val_during_training": false,
+  "checkpoint": "last",
+  "frozen_weights": "work/weights/yolo11n_rice_s0_last.pt",
+  "frozen_sha256": "bcde46c946b0ad8523e72b094aca5dbf310d741e5e96804ef2e8965e96ad53f3",
+  "train_seconds": 3874.2
+}

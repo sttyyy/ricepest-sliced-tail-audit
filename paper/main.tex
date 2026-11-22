@@ -1,0 +1,130 @@
+%Version 3.1 December 2024
+% See section 11 of the User Manual for version history
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                 %%
+%% Please do not use \input{...} to include other tex files.       %%
+%% Submit your LaTeX manuscript as one .tex document.              %%
+%%                                                                 %%
+%% All additional figures and files should be attached             %%
+%% separately and not embedded in the \TeX\ document itself.       %%
+%%                                                                 %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%\documentclass[referee,sn-basic]{sn-jnl}% referee option is meant for double line spacing
+
+%%=======================================================%%
+%% to print line numbers in the margin use lineno option %%
+%%=======================================================%%
+
+%%\documentclass[lineno,pdflatex,sn-basic]{sn-jnl}% Basic Springer Nature Reference Style/Chemistry Reference Style
+
+%%=========================================================================================%%
+%% the documentclass is set to pdflatex as default. You can delete it if not appropriate.  %%
+%%=========================================================================================%%
+
+%%\documentclass[sn-basic]{sn-jnl}% Basic Springer Nature Reference Style/Chemistry Reference Style
+
+%%Note: the following reference styles support Namedate and Numbered referencing. By default the style follows the most common style. To switch between the options you can add or remove “Numbered” in the optional parenthesis. 
+%%The option is available for: sn-basic.bst, sn-chicago.bst%  
+ 
+%%\documentclass[pdflatex,sn-nature]{sn-jnl}% Style for submissions to Nature Portfolio journals
+%%\documentclass[pdflatex,sn-basic]{sn-jnl}% Basic Springer Nature Reference Style/Chemistry Reference Style
+\documentclass[pdflatex,sn-mathphys-num]{sn-jnl}% Math and Physical Sciences Numbered Reference Style
+%%\documentclass[pdflatex,sn-mathphys-ay]{sn-jnl}% Math and Physical Sciences Author Year Reference Style
+%%\documentclass[pdflatex,sn-aps]{sn-jnl}% American Physical Society (APS) Reference Style
+%%\documentclass[pdflatex,sn-vancouver-num]{sn-jnl}% Vancouver Numbered Reference Style
+%%\documentclass[pdflatex,sn-vancouver-ay]{sn-jnl}% Vancouver Author Year Reference Style
+%%\documentclass[pdflatex,sn-apa]{sn-jnl}% APA Reference Style
+%%\documentclass[pdflatex,sn-chicago]{sn-jnl}% Chicago-based Humanities Reference Style
+
+%%%% Standard Packages
+%%<additional latex packages if required can be included here>
+
+\usepackage{graphicx}%
+\usepackage{multirow}%
+\usepackage{amsmath,amssymb,amsfonts}%
+\usepackage{amsthm}%
+\usepackage{mathrsfs}%
+\usepackage[title]{appendix}%
+\usepackage{xcolor}%
+\usepackage{textcomp}%
+\usepackage{manyfoot}%
+\usepackage{booktabs}%
+\usepackage{algorithm}%
+\usepackage{algorithmicx}%
+\usepackage{algpseudocode}%
+\usepackage{listings}%
+%%%%
+
+%%%%%=============================================================================%%%%
+%%%%  Remarks: This template is provided to aid authors with the preparation
+%%%%  of original research articles intended for submission to journals published 
+%%%%  by Springer Nature. The guidance has been prepared in partnership with 
+%%%%  production teams to conform to Springer Nature technical requirements. 
+%%%%  Editorial and presentation requirements differ among journal portfolios and 
+%%%%  research disciplines. You may find sections in this template are irrelevant 
+%%%%  to your work and are empowered to omit any such section if allowed by the 
+%%%%  journal you intend to submit to. The submission guidelines and policies 
+%%%%  of the journal take precedence. A detailed User Manual is available in the 
+%%%%  template package for technical guidance.
+%%%%%=============================================================================%%%%
+
+%% as per the requirement new theorem styles can be included as shown below
+\theoremstyle{thmstyleone}%
+\newtheorem{theorem}{Theorem}%  meant for continuous numbers
+%%\newtheorem{theorem}{Theorem}[section]% meant for sectionwise numbers
+%% optional argument [theorem] produces theorem numbering sequence instead of independent numbers for Proposition
+\newtheorem{proposition}[theorem]{Proposition}% 
+%%\newtheorem{proposition}{Proposition}% to get separate numbers for theorem and proposition etc.
+
+\theoremstyle{thmstyletwo}%
+\newtheorem{example}{Example}%
+\newtheorem{remark}{Remark}%
+
+\theoremstyle{thmstylethree}%
+\newtheorem{definition}{Definition}%
+
+\raggedbottom
+%%\unnumbered% uncomment this for unnumbered level heads
+
+\begin{document}
+
+\title[Slice boundaries and tail-class small-object misses]{Slice boundaries are a secondary contributor to small-object misses in tail classes: a preregistered recovery-ceiling audit of sliced inference for rice pest detection}
+
+%%=============================================================%%
+%% Authors and affiliations are author-provided placeholders.   %%
+%% The software does not invent author identities.              %%
+%%=============================================================%%
+
+\author*[1]{\fnm{[Author} \sur{Name]}}\email{[corresponding.author@institution.example]}
+
+\affil*[1]{\orgdiv{[Department]}, \orgname{[Institution]}, \orgaddress{\city{[City]}, \country{[Country]}}}
+
+\abstract{Sliced (tiled) inference is the standard way to detect small objects in high-resolution images, and the overlap between tiles is defended by the intuition that a tail-class pest is small, straddles a tile boundary and loses its pixels to the cut. We test that chain for long-tailed rice-pest detection with a pre-registered, size-controlled audit that freezes a detector, dumps every per-tile candidate, and charges each missed ground-truth object to the pipeline stage that first removed it, on a group-disjoint validation set. The published benchmark split is first shown to leak: near-duplicate images inflate apparent tail recall by about 28 percentage points. On the clean audit set, literal boundary truncation is negligible, with none of the 38 tail-small objects lacking a full tile view, so missing pixels do not explain the misses. Most tail-small misses instead occur before any candidate is formed (16 of 27), whereas same-size head-class pests are lost later, in the cross-tile merge and at the score threshold; the difference survives size matching, the no-candidate share being 33.3 percentage points higher for the tail. An oracle read-out and a pre-registered class-conditional read-out recover almost none of this tail-small loss. The admissible fix is therefore the detector and its training rather than the read-out, and the dominant loss stage is detector- and source-dependent.}
+
+\keywords{small-object detection, long-tailed detection, sliced inference, error diagnosis, pre-registration, rice pest monitoring}
+
+\maketitle
+
+\input{sections/01_introduction.tex}
+
+\input{sections/02_methods.tex}
+
+\input{sections/03_results.tex}
+
+\input{sections/04_discussion.tex}
+
+\input{sections/05_conclusion.tex}
+
+\backmatter
+
+\input{sections/06_declarations.tex}
+
+\begin{appendices}
+\input{sections/0A_appendix.tex}
+\end{appendices}
+
+\bibliography{references}
+
+\end{document}

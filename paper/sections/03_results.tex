@@ -1,0 +1,102 @@
+\section{Results}\label{sec:results}
+
+We report the controls first, then the primary tail-small partition and its oracle bound, and finally the attribution, robustness and source checks that bound the finding.
+
+\subsection{Literal truncation is negligible under standard overlap}\label{sec:res-trunc}
+
+The premise that a tile boundary strips a small object of its pixels is false in this setting. Under the frozen 320-pixel tiling at overlap 0.25, not one of the 1{,}838 small audit objects, and none of the 38 tail-small objects, lacks a full view in some tile, even though a quarter of them (26.3\%) are crossed by at least one tile border (Table~\ref{tab:truncation}). A seam cut is not a lost object: in every audited case, whatever one tile bisects, a neighbouring tile holds whole.
+
+\input{tables/TABLE_truncation.tex}
+
+That the measurement would see truncation if it existed is confirmed by the positive control. Removing the overlap turns 138 of the 1{,}838 small audit objects (7.5\%) and 3 of the 38 tail-small objects into genuine no-full-view cases (Fig.~\ref{fig:truncation}); two alternative tile sizes keep truncation at exactly zero on the audit set, and on native-resolution YST only 31 of 8{,}114 objects are truncated at the frozen geometry, almost all of them the two larger-bodied classes rather than the whitefly. Truncation is therefore a real but near-zero quantity under standard overlap, which rules out missing pixels as the cause of the tail-small loss documented below and sends the question downstream.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.65\textwidth,height=0.8\textheight,keepaspectratio]{../figures/fig_truncation_control.pdf}
+    \caption{Literal truncation (no full view in any tile) against tile overlap: negative control at the frozen overlap 0.25 (dashed) and positive control at overlap 0. RicePest-30 small objects of the audit set ($T$=320 in the 640 frame) and YST objects per class (native $T$=640).}
+    \label{fig:truncation}
+\end{figure}
+
+\subsection{Where tail-small objects are lost: the recovery-ceiling partition}\label{sec:res-partition}
+
+With missing pixels excluded, the ledger locates the loss. For the pooled tail-small endpoint the dominant outcome among misses is that no candidate was ever formed: of the 27 tail-small misses, 16 (59\%, 95\% CI [41, 78]) have no same-class box at the 0.01 floor with IoU~$0.5$ in any view, against 2 lost only before the scored list and 9 recoverable after decoding (Table~\ref{tab:partition}). Head-small objects of the same nominal size class are the mirror image: 88\% of their 403 misses did produce a candidate, and they are lost at the merge (39\%) or below the score threshold (49\%), with only 12\% never forming a candidate. The tail-small endpoint is small and dominated by one leafhopper species, so this is a statement about the pooled audited set rather than a per-class law; we return to that limit in the discussion.
+
+\input{tables/TABLE_partition.tex}
+
+The partition is visible as a single reversal between the two strata (Fig.~\ref{fig:partition}): for tail-small the no-candidate block is the tallest, whereas for head-small of the same size the pre-suppression and post-hoc blocks dominate and the no-candidate block is thin. Reading the 16 tail-small no-candidate misses individually, 7 produced no box at all, 5 produced a box of the wrong class, and 4 carry same-class evidence that only the multi-label read-out of the same forward pass exposes; and all 9 post-hoc-recoverable tail-small misses are threshold losses, none a cap loss. The practical consequence is already decided at this point: a majority of tail-small misses sit in the one category that no post-processing can reach, so effort spent on merging, thresholding or calibration is spent on the minority.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.98\textwidth,height=0.8\textheight,keepaspectratio]{../figures/fig_partition.pdf}
+    \caption{Recovery-ceiling partition of every audit object (YOLO11n, SAHI $T$=320, overlap 0.25). Each bar splits the objects of one stratum and size bin into detected, no candidate, pre-suppression only and post-hoc recoverable.}
+    \label{fig:partition}
+\end{figure}
+
+How much a better read-out could recover without a new detector is bounded by the oracle. For tail-small objects the oracle full-view read-out lifts recall from the emitted 28.9\% to only 31.6\%, a single additional object, so reordering the existing full-view evidence at fixed scores has almost no headroom (Fig.~\ref{fig:stage-survival}). Perfect rescoring of that evidence down to the floor would reach 57.9\%, and the remaining 42.1\% (16 objects) correspond exactly to the no-candidate mass that neither selection nor rescoring can touch. Head-small objects behave differently: a better read-out alone is worth up to 8.3 points (76.1\% to 84.4\%) and rescoring reaches 97.1\%, because their evidence is present and merely suppressed. The oracle thus certifies that the tail-small ceiling is set at candidate formation, not in the read-out.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.98\textwidth,height=0.8\textheight,keepaspectratio]{../figures/fig_stage_survival.pdf}
+    \caption{Stage-survival profile of the per-object ledger on the audit set (YOLO11n). Left: objects smaller than $32^2$; right: larger objects. Hollow markers: oracle full-view read-out (baseline detections plus every same-class candidate scoring at least 0.25 in a view that holds the whole object).}
+    \label{fig:stage-survival}
+\end{figure}
+
+\subsection{The tail/head difference survives size matching}\label{sec:res-contrast}
+
+A sceptic could argue that tail-small objects are simply smaller within the $<32^2$ band and that candidate formation fails on the smallest objects of any class. Matching the size distribution removes that explanation. Re-weighting head-small objects to the tail size mix, the no-candidate share is 38.2\% for tail against 4.9\% for size-matched head, a difference of $+33.3$ percentage points (95\% CI [16.7, 50.0], Holm $p=0.013$), while the pre-suppression-only share runs the other way at $-11.9$ points ([$-18.0$, $-5.2$], Holm $p=0.026$) and the post-hoc difference is not significant ($+9.6$ points, $p=0.149$); truncation stays at exactly zero in both strata (Fig.~\ref{fig:contrast}). At matched size, then, tail-small objects are lost before a candidate exists and head-small objects after, so the profile is not accounted for by size matching in this audit. We state this as the measured dissociation it is, not as a claim that every size-related mechanism has been ruled out.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.85\textwidth,height=0.8\textheight,keepaspectratio]{../figures/fig_contrast.pdf}
+    \caption{Size-matched frequency contrast: share of each outcome among tail-small objects minus the share among head-small objects re-weighted to the tail size mix (percentage points; bars: 95\% cluster-bootstrap CI over audit groups; Holm-adjusted $p$ from exact class-label permutation).}
+    \label{fig:contrast}
+\end{figure}
+
+\subsection{The dominant stage is stable across the read-out, tiling and operating point}\label{sec:res-robust}
+
+The location of the tail-small loss does not depend on the frozen configuration. Sweeping the merge rule, the tile size, the score threshold and the output cap, the tail-small no-candidate count stays between 13 and 20 of 38 throughout, so the candidate-formation bottleneck is not an artefact of any one read-out or threshold (Appendix~\ref{sec:app-sensitivity}, Table~\ref{tab:sensitivity}, Fig.~\ref{fig:sensitivity}). What does change with the read-out is the head-small profile: SAHI's union merge applied to the floor-level list creates most of the 159 head-small pre-suppression losses, and switching to an NMS merge removes 142 of them, which is why head-small recall is sensitive to the merge while tail-small recall is not. Slicing still matters for tail-small detection at the operating point, with full-image inference finding only 5 of 38 tail-small objects against 11 of 38 under slicing; the output cap bites only on dense head-class images and never constrains the tail. The robustness sweep therefore reinforces the partition rather than qualifying it: the tail-small ceiling is fixed upstream of the read-out, score threshold and cap that a deployer would adjust.
+
+\subsection{The dominant stage is detector-dependent}\label{sec:res-detector}
+
+Whether candidate formation dominates depends on the detector, and the second detector makes this explicit. Under the frozen read-out FCOS collapses for every stratum: trained for only six epochs it writes the full 300 boxes per view at the floor (1.85~million candidates over the 890 images, against 113{,}489 for YOLO11n), and SAHI's union merge fuses them into oversized boxes, so the merge stage, not candidate formation, dominates its losses (Fig.~\ref{fig:detectors}, Appendix Table~\ref{tab:partition-fcos}). This is a property of a dense low-score detector meeting a union merge, not of the tail. Once that merge artefact is read past, the detector-side quantity is genuinely smaller for FCOS: 9 to 10 of 38 tail-small objects have no candidate under any FCOS read-out, against 16 of 38 for YOLO11n, and only 8 of YOLO11n's 16 no-candidate tail-small objects are also no-candidate for FCOS. The size-matched frequency contrast replicates in direction on FCOS ($+11.1$ to $+14.1$ points, exact-permutation Holm $p=0.006$) though its magnitude is smaller and the group-bootstrap interval includes zero, so the dissociation is reproduced but not independently powered on the undertrained second detector. Candidate formation therefore carries the tail-small loss for YOLO11n specifically, and the dominant stage is contingent on the detector rather than universal.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.98\textwidth,height=0.8\textheight,keepaspectratio]{../figures/fig_detectors.pdf}
+    \caption{Cross-detector check: outcome shares of tail-small (left, 38 objects) and head-small (right, 1686 objects) audit objects for YOLO11n and FCOS-ResNet50-FPN under the frozen SAHI merge (GREEDYNMM-IOS at the 0.01 floor) and under an NMS-IoU 0.5 merge.}
+    \label{fig:detectors}
+\end{figure}
+
+\subsection{Same-dump baselines recover exactly what the partition allows}\label{sec:res-methods}
+
+If the partition is correct, a post-hoc method can only recover misses from the category its mechanism addresses, and this is what the baselines do when they re-read the identical candidate dump (Table~\ref{tab:methods}). Each method's parameters are fit by 5-fold group cross-fitting on the audit set, and every comparison is made at matched false positives, meaning one global score threshold per method chosen so that its total false positives do not exceed the frozen baseline's, so that recall gains cannot be bought with extra detections. Rescoring and calibration in the style of cross-view agreement~\citep{na2026crossview}, prior correction~\citep{pan2021norcal} and class$\times$size thresholds recover only post-hoc-recoverable misses: the per-class Na-style rescoring recovers 143 baseline misses at matched false positives, every one of them post-hoc-recoverable and none from the no-candidate or pre-suppression categories. Methods that instead replace the union merge with a per-location peak read-out recover pre-suppression-only misses, about 200 of them, and these are almost all head-small objects that the merge had absorbed. The gain from the peak read-out is real but it is a head-small gain: at matched false positives it lifts head-small recall from 76.1\% to 80.1\% and all-object recall from 79.3\% to 80.6\%, with the same effect whether it reads standard or multi-label evidence, so the improvement comes from discarding the union merge rather than from new evidence (Fig.~\ref{fig:methods}). None of the tested methods moves the tail-small no-candidate objects, as the oracle already required.
+
+\input{tables/TABLE_methods.tex}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.98\textwidth,height=0.8\textheight,keepaspectratio]{../figures/fig_methods.pdf}
+    \caption{Same-dump post-processing against the frozen SAHI baseline at matched false positives: paired difference in recall@0.5 (percentage points, 95\% cluster-bootstrap CI). Left to right: tail-small (38 objects), small (1838) and all (4429) audit objects. Teal: post-hoc rescoring/calibration; violet: read-out changes.}
+    \label{fig:methods}
+\end{figure}
+
+The class-conditional peak read-out (CCPR) was pre-registered as a likely-null secondary increment, and the data confirm that expectation. Against class$\times$size calibration, CCPR adds no tail-small true positives at its own operating point (difference $0.0$ points, 95\% CI [$-11.1$, $9.1$]), and the matched-precision and matched-false-positive comparisons add $-1$ and $+1$ (Table~\ref{tab:ccpr}). Head non-inferiority passes at every operating point, but the first and third go criteria, at least five additional tail-small true positives and a recall interval excluding zero, both fail, so the planned decision is NO-GO: class$\times$size calibration already absorbs whatever tail-small gain CCPR could offer. An NMS-based comparator reaches the same NO-GO on both detectors, so the result is not an artefact of the frozen merge. The read-out increment is therefore reported as a negative result, which is the outcome the partition predicts once the tail-small loss is known to sit at candidate formation rather than in the read-out.
+
+\input{tables/TABLE_ccpr.tex}
+
+\subsection{The dominant stage is also source-dependent: native-resolution traps}\label{sec:res-yst}
+
+The second contingency is the image source, which the native-resolution re-check exposes. On the Yellow Sticky Traps test set candidate formation is almost never the problem: at most 1\% of the 2{,}723 objects (24 to 26, depending on the read-out) have no candidate, and only 9 objects lack a full tile view, so source-specific truncation exists but is negligible (Table~\ref{tab:yst}). The loss instead sits in post-processing. The floor-level union merge on densely packed whiteflies produces 955 pre-suppression misses for that one class, and the 100-box cap removes further detections because a single trap holds more than 100 insects; replacing the merge with NMS and raising the cap to 300 lifts overall recall from 48.7\% to 91.8\% (Fig.~\ref{fig:yst}). The stage that carries the loss is thus read-out and cap here, not candidate formation as on downscaled RicePest-30. Because YST has only three classes it supports no long-tail conclusion; its single lesson is that the dominant stage is a joint property of the detector and the image source, so a diagnosis must be run per deployment rather than assumed.
+
+\input{tables/TABLE_yst.tex}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.98\textwidth,height=0.8\textheight,keepaspectratio]{../figures/fig_yst.pdf}
+    \caption{Native-resolution source re-check on Yellow Sticky Traps (85 held-out test images; WF 1882, MR 584, NC 257 objects). Left: outcome partition per class under the frozen pipeline and under an NMS read-out with a 300-box cap. Right: stage survival per class under the frozen pipeline; hollow markers: oracle full-view read-out.}
+    \label{fig:yst}
+\end{figure}
+
+
+
+

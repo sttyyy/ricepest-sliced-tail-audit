@@ -1,0 +1,17 @@
+{
+  "run_id": "R6-fcos_rice_s0",
+  "detector": "FCOS-ResNet50-FPN",
+  "init": "fcos_resnet50_fpn_coco-99b0c9b7.pth",
+  "epochs": 6,
+  "batch": 4,
+  "lr": 0.01,
+  "seed": 0,
+  "min_size": 640,
+  "max_size": 640,
+  "amp": true,
+  "checkpoint": "last",
+  "frozen_weights": "work/weights/fcos_rice_s0_last.pth",
+  "frozen_sha256": "f41271c04f8e0e55579dacbc3709a44d4b19b2e88fa8c10fe39caa0390123bdf",
+  "train_seconds": 2084.1,
+  "iterations": 11418
+}

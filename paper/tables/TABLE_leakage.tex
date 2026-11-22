@@ -1,0 +1,18 @@
+\begin{table}[!htbp]
+\small
+\caption{Train/validation near-duplicate grouping and the resulting group-disjoint audit set (RicePest-30, 890 frame-consistent validation images).}
+\label{tab:leakage}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}rrrrrrr}
+\toprule
+$\tau$ & \shortstack{Contam.\\val} & \shortstack{Audit\\images} & \shortstack{Audit\\groups} & \shortstack{Head-\\small} & \shortstack{Mid-\\small} & \shortstack{Tail-small\\(groups)} \\
+\midrule
+0 & 249 & 641 & 626 & 1856 & 146 & 43 (30) \\
+4 & 274 & 616 & 601 & 1854 & 146 & 43 (30) \\
+6 & 315 & 575 & 559 & 1797 & 136 & 42 (29) \\
+8$^{\ast}$ & 367 & 523 & 508 & 1686 & 114 & 38 (27) \\
+10 & 444 & 446 & 431 & 1494 & 81 & 28 (21) \\
+12 & 555 & 335 & 325 & 1097 & 49 & 22 (17) \\
+\bottomrule
+\end{tabular*}
+\footnotetext{$\tau$: 64-bit pHash Hamming threshold for a near-duplicate link (links also require a shared class; byte-identical files are always linked). $^{\ast}$Frozen setting. 285 of 933 validation images have a training image at pHash distance 0; 279 byte-identical (MD5) groups span both splits.}
+\end{table}

@@ -1,0 +1,17 @@
+{
+  "run_id": "R2-yolo11n_yst_s0",
+  "detector": "YOLO11n",
+  "init": "yolo11n.pt",
+  "init_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "data": "yst.yaml",
+  "epochs": 20,
+  "imgsz": 640,
+  "batch": 16,
+  "seed": 0,
+  "deterministic": true,
+  "val_during_training": false,
+  "checkpoint": "last",
+  "frozen_weights": "work/weights/yolo11n_yst_s0_last.pt",
+  "frozen_sha256": "80be29e2a8fe84088642a202a276b8a058dc766bd5cb9461e06f32fe0f2e7320",
+  "train_seconds": 1192.1
+}

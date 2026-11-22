@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  html,body{margin:0;padding:0;width:fit-content;height:fit-content;background:transparent}
+  .fig,.fig *{font-family:"Times New Roman","SimSun","Songti SC","Microsoft YaHei",serif;
+    -webkit-font-smoothing:antialiased;box-sizing:border-box}
+  .fig *{font-style:normal}
+  .fig{width:fit-content;height:fit-content;padding:10px 22px;background:transparent;line-height:1.25;
+    --edge:#000;--txt:#000;--line:#000;--ac:hsl(214,44%,38%);--acbg:hsl(214,44%,95%)}
+  .ledger{display:grid;grid-template-columns:max-content 38px minmax(248px,max-content);align-items:center}
+  /* stage chips (left spine, column 1) */
+  .chip{border:1.4px solid var(--edge);background:#fff;color:var(--txt);border-radius:2px;
+    display:flex;align-items:stretch;min-width:208px;overflow:hidden}
+  .num{display:flex;align-items:center;justify-content:center;width:36px;flex:0 0 36px;
+    border-right:1.4px solid var(--edge);font-weight:700;font-size:15px;color:var(--ac)}
+  .chip .nm{display:flex;align-items:center;padding:7px 13px;font-size:14.5px;font-weight:600}
+  .term{border:1.6px solid var(--ac);background:var(--acbg);border-radius:2px;
+    padding:7px 14px;font-size:14.5px;font-weight:700;color:var(--txt);min-width:208px;text-align:center}
+  /* down arrow between stages (ARROW=1, thick) */
+  .darr{justify-self:center;display:flex;flex-direction:column;align-items:center;height:17px}
+  .darr .ln{width:2.6px;height:8px;background:var(--ac)}
+  .darr .hd{width:0;height:0;border-top:9px solid var(--ac);
+    border-left:6px solid transparent;border-right:6px solid transparent}
+  /* horizontal connector stage -> category card */
+  .harr{display:flex;align-items:center;justify-self:stretch;align-self:center}
+  .harr .ln{height:2.6px;background:var(--ac);flex:1}
+  .harr .hd{width:0;height:0;border-left:9px solid var(--ac);
+    border-top:6px solid transparent;border-bottom:6px solid transparent}
+  /* bracket (black, structural) grouping stages IV+V, then one blue flow arrow into the card */
+  .cbrace{display:flex;align-items:center;justify-self:stretch;align-self:stretch}
+  .cbrace .vtie{width:1.6px;align-self:stretch;background:var(--line);flex:0 0 1.6px;margin:6px 0}
+  .cbrace .harm{display:flex;align-items:center;flex:1}
+  .cbrace .harm .ln{height:2.6px;background:var(--ac);flex:1}
+  .cbrace .harm .hd{width:0;height:0;border-left:9px solid var(--ac);
+    border-top:6px solid transparent;border-bottom:6px solid transparent}
+  /* recovery-ceiling category card (NODEACC=1: left accent bar) */
+  .card{border:1.4px solid var(--edge);border-left:5px solid var(--ac);background:#fff;border-radius:2px;width:248px;
+    padding:8px 13px;display:flex;flex-direction:column;gap:3px;justify-content:center}
+  .card .ct{font-size:15px;font-weight:700}
+  .card .wh{font-size:14px;font-weight:400}
+  .card .fx{font-size:14px;font-weight:400}
+  .card .fx b{font-weight:700;color:var(--ac)}
+  /* truncation side note at coverage */
+  .note{display:flex;align-items:center;justify-self:stretch;align-self:center}
+  .note .ln{flex:1;border-top:1.6px dashed var(--line);height:0}
+  .side{font-size:14px;border:1px dashed var(--line);border-radius:2px;padding:7px 11px;
+    background:#fff;white-space:nowrap}
+  /* detected output note */
+  .omatch{font-size:14px;border:1px solid var(--edge);border-radius:2px;padding:7px 11px;
+    background:#fff;white-space:nowrap}
+</style>
+</head>
+<body>
+<div class="fig" data-mh-palette="plain">
+  <div class="ledger">
+    <!-- Stage I: coverage, row 1 -->
+    <div class="chip" data-mh-col="1" style="grid-column:1;grid-row:1"><span class="num">&#8544;</span><span class="nm">Tile coverage</span></div>
+    <div class="note" style="grid-column:2/4;grid-row:1"><div class="ln"></div><span class="side">no full view &rarr; truncated (negative control)</span></div>
+    <div class="darr" data-mh-col="1" style="grid-column:1;grid-row:2"><div class="ln"></div><div class="hd"></div></div>
+
+    <!-- Stage II: candidate formation, row 3 -->
+    <div class="chip" data-mh-col="1" style="grid-column:1;grid-row:3"><span class="num">&#8545;</span><span class="nm">Candidate formation</span></div>
+    <div class="harr" style="grid-column:2;grid-row:3"><div class="ln"></div><div class="hd"></div></div>
+    <div class="card" style="grid-column:3;grid-row:3">
+      <span class="ct">No candidate</span>
+      <span class="fx">fix: <b>detector / training</b></span>
+    </div>
+    <div class="darr" data-mh-col="1" style="grid-column:1;grid-row:4"><div class="ln"></div><div class="hd"></div></div>
+
+    <!-- Stage III: cross-tile merge / read-out, row 5 -->
+    <div class="chip" data-mh-col="1" style="grid-column:1;grid-row:5"><span class="num">&#8546;</span><span class="nm">Merge across tiles</span></div>
+    <div class="harr" style="grid-column:2;grid-row:5"><div class="ln"></div><div class="hd"></div></div>
+    <div class="card" style="grid-column:3;grid-row:5">
+      <span class="ct">Suppressed at merge</span>
+      <span class="fx">fix: <b>peak readout / NMM</b></span>
+    </div>
+    <div class="darr" data-mh-col="1" style="grid-column:1;grid-row:6"><div class="ln"></div><div class="hd"></div></div>
+
+    <!-- Stage IV: score threshold, row 7 ; Stage V: output cap, row 9 ; card C spans 7-9 -->
+    <div class="chip" data-mh-col="1" style="grid-column:1;grid-row:7"><span class="num">&#8547;</span><span class="nm">Score threshold</span></div>
+    <div class="card" style="grid-column:3;grid-row:7 / 10">
+      <span class="ct">Recoverable after decode</span>
+      <span class="fx">fix: <b>rescoring / calibration</b></span>
+    </div>
+    <div class="darr" data-mh-col="1" style="grid-column:1;grid-row:8"><div class="ln"></div><div class="hd"></div></div>
+    <div class="cbrace" style="grid-column:2;grid-row:7 / 10"><div class="vtie"></div><div class="harm"><div class="ln"></div><div class="hd"></div></div></div>
+    <div class="chip" data-mh-col="1" style="grid-column:1;grid-row:9"><span class="num">&#8548;</span><span class="nm">Output cap</span></div>
+    <div class="darr" data-mh-col="1" style="grid-column:1;grid-row:10"><div class="ln"></div><div class="hd"></div></div>
+
+    <!-- Terminal: detected, row 11 -->
+    <div class="term" data-mh-col="1" style="grid-column:1;grid-row:11">Detected (true positive)</div>
+    <div class="note" style="grid-column:2/4;grid-row:11"><div class="ln" style="border-top-style:solid"></div><span class="omatch">one match per object, IoU 0.5</span></div>
+  </div>
+</div>
+</body>
+</html>

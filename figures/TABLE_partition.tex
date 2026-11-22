@@ -1,0 +1,24 @@
+\begin{table}[!htbp]
+\centering
+\footnotesize
+\caption{Recovery-ceiling partition of missed objects (YOLO11n).}
+\label{tab:partition}
+\begin{tabular}{lrrrrrr}
+\toprule
+Stratum, size & $N$ (groups) & Recall (\%) & Misses & No cand. & Pre-supp. & Post-hoc \\
+\midrule
+Tail $<32^2$ (primary) & 38 (27) & 28.9 & 27 & 16 (59) & 2 (7) & 9 (33) \\
+\quad 95\% CI & & [12, 49] & & [41, 78] & [0, 18] & [17, 55] \\
+\quad Tail $<16^2$ & 11 (5) & 9.1 & 10 & 7 & 2 & 1 \\
+\quad Tail $16^2$--$32^2$ & 27 (24) & 37.0 & 17 & 9 (53) & 0 (0) & 8 (47) \\
+Mid $<32^2$ & 114 (29) & 77.2 & 26 & 7 (27) & 5 (19) & 14 (54) \\
+Head $<32^2$ & 1686 (257) & 76.1 & 403 & 47 (12) & 159 (39) & 197 (49) \\
+\quad 95\% CI & & [74, 79] & & [8, 16] & [32, 46] & [42, 56] \\
+Tail $\geq 32^2$ & 210 (156) & 58.1 & 88 & 40 (45) & 5 (6) & 43 (49) \\
+Mid $\geq 32^2$ & 554 (251) & 71.1 & 160 & 67 (42) & 19 (12) & 74 (46) \\
+Head $\geq 32^2$ & 1827 (332) & 88.2 & 215 & 50 (23) & 65 (30) & 100 (47) \\
+All objects & 4429 (508) & 79.3 & 919 & 227 (25) & 255 (28) & 437 (48) \\
+\bottomrule
+\end{tabular}
+\par\smallskip\parbox{0.95\linewidth}{\footnotesize Group-disjoint audit set, frozen YOLO11n + SAHI ($T$=320, overlap 0.25, GREEDYNMM/IOS 0.5 at the 0.01 floor), operating point score $\geq$0.25 and 100 boxes per image. Miss columns: count (\% of misses); CI rows: 95\% cluster-bootstrap CI over audit groups; rates and CIs are omitted when a cell has $<$10 events or $<$5 groups. Size-matched contrast (tail-small vs head-small standardized to the tail size mix): no-candidate share difference 33.3 pp [16.7, 50.0], Holm $p$=0.013; pre-suppression-only -11.9 pp [-18.0, -5.2], Holm $p$=0.026; post-hoc-recoverable 9.6 pp [-3.7, 25.1], Holm $p$=0.149.}
+\end{table}

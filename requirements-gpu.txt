@@ -1,0 +1,17 @@
+# GPU stack, installed into the private .pydeps_gpu/ directory (see README section 4).
+#
+#   python -m pip install --no-deps --target .pydeps_gpu -r requirements-gpu.txt
+#
+# torch and torchvision are NOT listed here: they must come from a CUDA wheel index, e.g.
+#   https://mirrors.aliyun.com/pytorch-wheels/cu128/torch-2.9.1+cu128-cp311-cp311-win_amd64.whl
+#   https://mirrors.aliyun.com/pytorch-wheels/cu128/torchvision-0.24.1+cu128-cp311-cp311-win_amd64.whl
+# code/gpu_env.py puts .pydeps_gpu/ first on sys.path, so these packages take precedence
+# over anything installed in the base interpreter.
+ultralytics==8.3.240
+ultralytics-thop==2.2.5
+sahi==0.14.0
+pybboxes==0.2.0
+fire==0.7.1
+termcolor==3.3.0
+terminaltables==3.1.10
+polars==2.1.0

@@ -1,0 +1,49 @@
+\section{Full sensitivity of the ledger}\label{sec:app-sensitivity}
+
+Table~\ref{tab:sensitivity} gives the recall and the miss composition under every read-out, tiling, operating point and detector referenced in Section~\ref{sec:res-robust}, and Fig.~\ref{fig:sensitivity} plots recall against the output cap together with the composition of small-object misses. Across the whole sweep the tail-small no-candidate count stays between 13 and 20 of 38, while the head-small pre-suppression mass moves sharply with the merge rule, which is the quantitative basis for the claim that the tail-small bottleneck is configuration-independent whereas the head-small profile is not.
+
+\input{tables/TABLE_sensitivity.tex}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.98\textwidth,height=0.8\textheight,keepaspectratio]{../figures/fig_sensitivity.pdf}
+    \caption{Sensitivity of the ledger. Top: recall of small objects per stratum against the global output cap (frozen cap 100 dashed). Bottom: composition of small-object misses under the frozen pipeline and alternative read-outs and tilings (number of misses in brackets).}
+    \label{fig:sensitivity}
+\end{figure}
+
+\section{The second detector in full}\label{sec:app-fcos}
+
+The partition under FCOS-ResNet50-FPN, referenced in Section~\ref{sec:res-detector}, is given in Table~\ref{tab:partition-fcos}: because the undertrained detector floods each tile with low-score boxes, the merge stage dominates every stratum, and the no-candidate column is correspondingly small. Reading past that merge artefact, FCOS leaves 9 of 38 tail-small objects with no candidate, fewer than YOLO11n, which is why the cross-detector message is that candidate formation is detector-dependent.
+
+\input{tables/TABLE_partition_fcos.tex}
+
+The same contrast is visible in the stacked partition and in the stage-survival profile for FCOS (Figs.~\ref{fig:partition-fcos} and~\ref{fig:stage-survival-fcos}), which mirror the YOLO11n figures in the main text and let the two detectors be compared panel by panel.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.98\textwidth,height=0.8\textheight,keepaspectratio]{../figures/fig_partition_fcos.pdf}
+    \caption{Recovery-ceiling partition of every audit object under the second detector (FCOS-ResNet50-FPN, SAHI $T$=320, overlap 0.25, frozen GREEDYNMM-IOS merge). Categories and layout match Fig.~\ref{fig:partition}.}
+    \label{fig:partition-fcos}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.98\textwidth,height=0.8\textheight,keepaspectratio]{../figures/fig_stage_survival_fcos.pdf}
+    \caption{Stage-survival profile of the per-object ledger on the audit set under FCOS-ResNet50-FPN (SAHI $T$=320, overlap 0.25). Axes match Fig.~\ref{fig:stage-survival}: left, objects smaller than $32^2$; right, larger objects; hollow markers are the oracle full-view read-out.}
+    \label{fig:stage-survival-fcos}
+\end{figure}
+
+The same-dump post-processing methods behave consistently on FCOS as well (Table~\ref{tab:methods-fcos}): rescoring and calibration recover only post-hoc-recoverable misses, and against an NMS-based comparator the class-conditional read-out is again NO-GO, so the pre-registered negative increment on the primary detector is not reversed by the second.
+
+\input{tables/TABLE_methods_fcos.tex}
+
+\section{Training records}\label{sec:app-training}
+
+For reproducibility, Fig.~\ref{fig:training} shows the training-loss curves of the two frozen RicePest-30 detectors; no validation data were used for checkpoint selection, so the audit set never influenced the weights that produced the results above.
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.98\textwidth,height=0.8\textheight,keepaspectratio]{../figures/fig_training.pdf}
+    \caption{Training losses of the two frozen RicePest-30 detectors (no validation data were used for checkpoint selection).}
+    \label{fig:training}
+\end{figure}

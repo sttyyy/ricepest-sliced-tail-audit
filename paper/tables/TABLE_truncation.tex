@@ -1,0 +1,22 @@
+\begin{table}[!htbp]
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\caption{Literal truncation: objects with no full view in any SAHI tile (counts truncated/total). RicePest-30 rows count small objects ($<32^2$ in the 640-long-edge frame).}
+\label{tab:truncation}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llrrrrr}
+\toprule
+Data & $T$/stride & \shortstack{Train\\small} & \shortstack{Val\\small} & \shortstack{Audit\\small} & \shortstack{Audit\\tail-small} & \shortstack{Seam-cut\\(\%)} \\
+\midrule
+RicePest-30 & 320/240$^{\ast}$ & 0/21048 & 0/2680 & 0/1838 & 0/38 & 26.3 \\
+RicePest-30 & 320/288 & 67/21048 & 10/2680 & 6/1838 & 0/38 & 26.2 \\
+RicePest-30 & 320/320 & 1614/21048 & 214/2680 & 138/1838 & 3/38 & 19.3 \\
+RicePest-30 & 256/192 & 0/21048 & 0/2680 & 0/1838 & 0/38 & 41.0 \\
+RicePest-30 & 480/360 & 0/21048 & 0/2680 & 0/1838 & 0/38 & 12.5 \\
+YST (native) & 640/480$^{\ast}$ & \multicolumn{4}{c}{31/8114 all objects (WF 0, MR 23, NC 8)} & 45.9 \\
+YST (native) & 640/576 & \multicolumn{4}{c}{444/8114 all objects (WF 6, MR 308, NC 130)} & 38.6 \\
+YST (native) & 640/640 & \multicolumn{4}{c}{1639/8114 all objects (WF 817, MR 571, NC 251)} & 25.4 \\
+YST (native) & 512/384 & \multicolumn{4}{c}{147/8114 all objects (WF 0, MR 102, NC 45)} & 55.9 \\
+\bottomrule
+\end{tabular*}
+\footnotetext{Seam-cut: share of objects crossed by at least one tile border (they still have a full view in a neighbouring tile). $^{\ast}$Frozen configuration. Overlap 0 is a positive control: it removes the redundancy that guarantees a full view.}
+\end{table}
